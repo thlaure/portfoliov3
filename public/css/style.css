@@ -1,0 +1,71 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-display: fallback;
+}
+
+.separator {
+  border-top: 5px solid rgba(255, 255, 255, 0.75);
+}
+
+.sm-separator {
+  border-top: 2px solid rgba(255, 255, 255, 0.75);
+}
+
+.social-media:link,
+.social-media:visited,
+.btn-light {
+  color: #f8f9fa;
+}
+
+.social {
+  font-size: 2rem;
+}
+
+.instagram:hover {
+  color: #c13584;
+}
+
+.linkedin:hover {
+  color: #0077b4;
+}
+
+.twitter:hover {
+  color: #1da1f3;
+}
+
+.github:hover {
+  color: #24292d;
+}
+
+.fa-react {
+  color: #62dafc;
+}
+
+.fa-bootstrap {
+  color: #563e7c;
+}
+
+.btn-light {
+  background-color: transparent;
+  padding: 2% 3%;
+}
+
+.shadowing {
+  box-shadow: 0 6px 20px -8px rgba(0, 0, 0, 0.7);
+}
+
+.blockquote-footer {
+  color: #565d64;
+}
+
+.bg-icesmoke {
+  background-color: #f0f3f8;
+}
+
+ul.unstyled {
+  list-style: none;
+}
