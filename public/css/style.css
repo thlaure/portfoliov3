@@ -21,12 +21,17 @@ body {
   color: #f8f9fa;
 }
 
+footer .social-media:link,
+footer .social-media:visited {
+  color: inherit;
+}
+
 .social {
   font-size: 2rem;
 }
 
-.instagram:hover {
-  color: #c13584;
+.reddit:hover {
+  color: #fc4400;
 }
 
 .linkedin:hover {
