@@ -1,11 +1,3 @@
-#timeline {
-    background: linear-gradient(to right, rgba(119, 124, 128, 0.6), rgba(59, 62, 64, 0.9)), url('../images/freedom.jpg') no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-
 #timeline a,
 #projects a {
   color: #68afff;
