@@ -2,8 +2,8 @@
 
 {% block stylesheets %}
 {{ parent() }}
-<link rel="stylesheet" href="{{ asset('css/home.css') }}">
-<link rel="stylesheet" href="{{ asset('css/timeline.css') }}">
+<link rel="stylesheet" href="{{ asset('public/css/home.css') }}">
+<link rel="stylesheet" href="{{ asset('public/css/timeline.css') }}">
 {% endblock %}
 
 {% block body %}
@@ -31,7 +31,7 @@
                         <a href="https://www.linkedin.com/in/thomas-laure-developpeur-web/" class="social-media linkedin" role="button" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="mr-auto ml-3 mt-2">
-                        <a href="https://github.com/Almarean" class="social-media github" role="button" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/thlaure" class="social-media github" role="button" title="GitHub"><i class="fab fa-github"></i></a>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@
             <p class="text-justify">Pour toute question, n'hésitez pas à me contacter !</p>
         </article>
         <div class="col-md-4 text-center">
-            <img class="rounded shadowing w-50" src="{{ asset('img/portrait.jpg') }}" alt="Portrait">
+            <img class="rounded shadowing w-50" src="{{ asset('public/img/portrait.jpg') }}" alt="Portrait">
         </div>
         <article class="col-md-2 mt-3">
             <h3>Centres d'intérêt</h3>
@@ -103,12 +103,12 @@
                 <li><i class="fas fa-leaf"></i> Green IT</li>
                 <li><i class="fas fa-tasks"></i> Organisation / Gestion</li>
                 <li><i class="fas fa-language"></i> TOEIC : 615 points</li>
-                <li><img src="{{ asset('img/logo_voltaire.png') }}" alt="Volaire"> Certificat Voltaire : <a href="https://www.certificat-voltaire.fr/orthographe-recruteur">771 points</a></li>
+                <li><img src="{{ asset('public/img/logo_voltaire.png') }}" alt="Volaire"> Certificat Voltaire : <a href="https://www.certificat-voltaire.fr/orthographe-recruteur">771 points</a></li>
             </ul>
         </article>
     </div>
     <div class="mt-5 text-center">
-        <a href="{{ asset('docs/cv_thomas_laure.pdf') }}" class="button animated-corners font-weight-bold p-4"><i class="fas fa-file-download"></i> Télécharger mon CV</a>
+        <a href="{{ asset('public/docs/cv_thomas_laure.pdf') }}" class="button animated-corners font-weight-bold p-4"><i class="fas fa-file-download"></i> Télécharger mon CV</a>
     </div>
 </section>
 
@@ -216,7 +216,7 @@
                         <li class="lead"><i class="devicon-linux-plain"></i> GNU/Linux</li>
                         <li class="lead"><i class="devicon-windows8-original"></i> Windows</li>
                         <li class="lead"><i class="devicon-android-plain"></i> Android</li>
-                        <li class="lead"><i class="devicon-docker-plain"></i> Docker</li>
+                        <li class="lead"><i class="devicon-python-plain"></i> Anaconda</li>
                         <li class="lead"><i class="devicon-git-plain"></i> Git</li>
                         <li class="lead"><i class="devicon-mysql-plain"></i> MySQL</li>
                         <li class="lead"><i class="devicon-postgresql-plain"></i> PostgreSQL / PostGIS</li>
@@ -233,7 +233,7 @@
                         <li class="lead"><i class="devicon-nodejs-plain"></i> Node.js</li>
                         <li class="lead"><i class="devicon-express-original"></i> Express</li>
                         <li class="lead"><i class="devicon-react-original"></i> React.js</li>
-                        <li class="lead"><i class="devicon-python-plain"></i> Python / Selenium / Anaconda</li>
+                        <li class="lead"><i class="devicon-python-plain"></i> Python / Selenium</li>
                     </ul>
                 </div>
                 <div class="col-md-4">
@@ -264,5 +264,5 @@
 
 {% block javascripts %}
 {{ parent() }}
-<script src="{{ asset('js/home.js') }}"></script>
+<script src="{{ asset('public/js/home.js') }}"></script>
 {% endblock %}
