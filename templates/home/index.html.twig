@@ -264,5 +264,5 @@
 
 {% block javascripts %}
 {{ parent() }}
-<script src="{{ asset('public/js/home.js') }}"></script>
+{{ encore_entry_script_tags('home') }}
 {% endblock %}
