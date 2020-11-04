@@ -13,5 +13,5 @@ function scrollTo(to, behavior, block) {
 scrollTo("presentation", "smooth", "start");
 scrollTo("timeline", "smooth", "start");
 scrollTo("skills", "smooth", "start");
-scrollTo("projects", "smooth", "start");
+scrollTo("realisations", "smooth", "start");
 scrollTo("title", "smooth", "start");

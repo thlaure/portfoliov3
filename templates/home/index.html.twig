@@ -6,7 +6,7 @@
 {{ encore_entry_link_tags('timeline_css') }}
 {% endblock %}
 
-{% block body %}
+{% block inner_body %}
 <div id="title" class="container-fluid p-5 text-center text-white">
     <div class="row">
         <div class="mx-auto">
@@ -46,7 +46,7 @@
                     <button class="btn btn-light btn-block rounded-pill p-md-3 font-weight-bold" id="scroll-skills" title="Scroll to the skills">Compétences</button>
                 </div>
                 <div class="col-md-3 mt-2 mx-auto">
-                    <button class="btn btn-light btn-block rounded-pill p-md-3 font-weight-bold" id="scroll-projects" title="Scroll to the projects">Projets</button>
+                    <button class="btn btn-light btn-block rounded-pill p-md-3 font-weight-bold" id="scroll-realisations" title="Scroll to the realisations">Réalisations</button>
                 </div>
             </div>
         </div>
@@ -203,63 +203,69 @@
     </section>
 </div>
 
-<div id="skills">
-    <div class="container-fluid p-5">
-        <section>
-            <h1 class="text-center">Compétences</h1>
-            <article class="row mt-5">
-                <div class="col-md-4">
-                    <h2 class="text-center mt-3">Environnements</h2>
-                    <ul class="mt-5">
-                        <li class="lead"><i class="devicon-visualstudio-plain"></i> VS Code / Visual Studio</li>
-                        <li class="lead"><i class="devicon-jetbrains-plain"></i> PhpStorm / IntelliJ IDEA</li>
-                        <li class="lead"><i class="devicon-linux-plain"></i> GNU/Linux</li>
-                        <li class="lead"><i class="devicon-windows8-original"></i> Windows</li>
-                        <li class="lead"><i class="devicon-android-plain"></i> Android</li>
-                        <li class="lead"><i class="devicon-python-plain"></i> Anaconda</li>
-                        <li class="lead"><i class="devicon-git-plain"></i> Git</li>
-                        <li class="lead"><i class="devicon-mysql-plain"></i> MySQL</li>
-                        <li class="lead"><i class="devicon-postgresql-plain"></i> PostgreSQL / PostGIS</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h2 class="text-center mt-3">Principales</h2>
-                    <ul class="mt-5">
-                        <li class="lead"><i class="devicon-html5-plain"></i> HTML</li>
-                        <li class="lead"><i class="devicon-css3-plain"></i> CSS / Bootstrap</li>
-                        <li class="lead"><i class="devicon-javascript-plain"></i> JavaScript / jQuery</li>
-                        <li class="lead"><i class="devicon-php-plain"></i> PHP</li>
-                        <li class="lead"><i class="devicon-symfony-original"></i> Symfony / Twig</li>
-                        <li class="lead"><i class="devicon-nodejs-plain"></i> Node.js</li>
-                        <li class="lead"><i class="devicon-express-original"></i> Express</li>
-                        <li class="lead"><i class="devicon-react-original"></i> React.js</li>
-                        <li class="lead"><i class="devicon-python-plain"></i> Python / Selenium</li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h2 class="text-center mt-3">Autres</h2>
-                    <ul class="mt-5">
-                        <li class="lead"><i class="devicon-c-plain"></i> C</li>
-                        <li class="lead"><i class="devicon-java-plain"></i> Java / Java EE</li>
-                        <li class="lead"><i class="devicon-csharp-plain"></i> C# / .Net</li>
-                        <li class="lead"><i class="devicon-amazonwebservices-original"></i> Big Data / Business Intelligence</li>
-                        <li class="lead"><i class="devicon-drupal-plain"></i> E-commerce</li>
-                        <li class="lead"><i class="devicon-photoshop-plain"></i> Adobe Photoshop</li>
-                        <li class="lead"><i class="devicon-trello-plain"></i> Agilité / UX Design / Design Thinking</li>
-                        <li class="lead"><i class="devicon-debian-plain"></i> Administration système Linux</li>
-                        <li class="lead"><i class="devicon-apache-line"></i> Mise en place de serveur web Apache</li>
-                    </ul>
-                </div>
-            </article>
-        </section>
-    </div>
+<section id="skills" class="container-fluid p-5">
+    <h1 class="text-center">Compétences</h1>
+    <article class="row mt-5">
+        <div class="col-md-4">
+            <h2 class="text-center mt-3">Environnements</h2>
+            <ul class="mt-5">
+                <li class="lead"><i class="devicon-visualstudio-plain"></i> VS Code</li>
+                <li class="lead"><i class="devicon-phpstorm-plain"></i> PhpStorm</li>
+                <li class="lead"><i class="devicon-linux-plain"></i> GNU/Linux</li>
+                <li class="lead"><i class="devicon-windows8-original"></i> Windows</li>
+                <li class="lead"><i class="devicon-python-plain"></i> Anaconda</li>
+                <li class="lead"><i class="devicon-git-plain"></i> Git</li>
+                <li class="lead"><i class="devicon-mysql-plain"></i> MySQL / MariaDB</li>
+                <li class="lead"><i class="devicon-postgresql-plain"></i> PostgreSQL / PostGIS</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h2 class="text-center mt-3">Principales</h2>
+            <ul class="mt-5">
+                <li class="lead"><i class="devicon-html5-plain"></i> HTML</li>
+                <li class="lead"><i class="devicon-css3-plain"></i> CSS / Bootstrap</li>
+                <li class="lead"><i class="devicon-javascript-plain"></i> JavaScript / jQuery</li>
+                <li class="lead"><i class="devicon-php-plain"></i> PHP</li>
+                <li class="lead"><i class="devicon-symfony-original"></i> Symfony / Twig</li>
+                <li class="lead"><i class="devicon-nodejs-plain"></i> Node.js</li>
+                <li class="lead"><i class="devicon-express-original"></i> Express</li>
+                <li class="lead"><i class="devicon-react-original"></i> React.js</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h2 class="text-center mt-3">Autres</h2>
+            <ul class="mt-5">
+                <li class="lead"><i class="devicon-python-plain"></i> Python / Selenium</li>
+                <li class="lead"><i class="devicon-java-plain"></i> Java / Java EE</li>
+                <li class="lead"><i class="devicon-csharp-plain"></i> C# / .Net</li>
+                <li class="lead"><i class="devicon-amazonwebservices-original"></i> Big Data / Business Intelligence</li>
+                <li class="lead"><i class="devicon-drupal-plain"></i> E-commerce</li>
+                <li class="lead"><i class="devicon-photoshop-plain"></i> Adobe Photoshop</li>
+                <li class="lead"><i class="devicon-trello-plain"></i> Agilité / UX Design / Design Thinking</li>
+            </ul>
+        </div>
+    </article>
+</section>
+
+<section id="realisations" class="container-fluid p-5 text-white">
+    <h1 class="text-center">Réalisations</h1>
+    <article class="row mt-5">
+        {% for project in projects %}
+        <div class="card col-md-3 text-secondary" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="Image of the project {{ project.title }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ project.title }}</h5>
+                <p class="font-italic">{{ project.tag }}</p>
+                <a href="{{ path('project', { 'id': project.id }) }}" class="btn btn-primary">En savoir plus</a>
+            </div>
+        </div>
+        {% endfor %}
+    </article>
 
     <div class="mt-5 text-center">
         <button class="btn btn-light rounded-pill p-3" id="scroll-title" title="Scroll to the title"><i class="fas fa-arrow-up"></i></button>
     </div>
-</div>
-
-{% include('footer.html.twig') %}
+</section>
 {% endblock %}
 
 {% block javascripts %}
