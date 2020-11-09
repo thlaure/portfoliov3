@@ -16,19 +16,34 @@
         <h2 class="text-center text-light font-italic font-weight-light">{{ project.tag }}</h2>
     </div>
     <div class="mt-5 container">
-        <p class="lead text-justify">{{ project.description|nl2br }}</p>
-        {% if project.files.file is defined %}
-        <a href="{{ asset('/public/build/docs/' ~ project.files.file) }}" class="lead unstyled">{{ project.files.name }}</a>
+        {% if project.context|length > 0 %}
+        <p class="lead font-weight-bolder"><i class="fas fa-map-marker-alt"></i> {{ project.context }}</p>
         {% endif %}
-        {% if project.images.images is defined %}
+
+        <p class="lead font-italic"><i class="far fa-calendar-alt"></i> {{ project.startDate|date("m/Y") }} - {{ project.endDate|date("m/Y") }}</p>
+        <p class="lead text-justify">{{ project.description|nl2br }}</p>
+
+        {% if project.files is defined %}
+        {% for file in project.files.files %}
+        <div><a href="{{ asset('/public/build/docs/' ~ file.path) }}" class="lead unstyled"><i class="far fa-file-alt"></i> {{ file.title }}</a></div>
+        {% endfor %}
+        {% endif %}
+
+        {% if project.files.links is defined %}
+        {% for link in project.files.links %}
+        <div><a href="{{ link.path }}" class="lead unstyled"><i class="fas fa-external-link-alt"></i> {{ link.title }}</a></div>
+        {% endfor %}
+        {% endif %}
+
+        {% if project.files.images is defined %}
         <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-                {% for i in 0..project.images.images|length %}
+                {% for i in 0..project.files.images|length %}
                 <li data-target="#carouselIndicators" data-slide-to="{{ i }}" {% if i == 0 %}class="active"{% endif %}></li>
                 {% endfor %}
             </ol>
             <div class="carousel-inner">
-                {% for image in project.images.images %}
+                {% for image in project.files.images %}
                 <div class="carousel-item {% if loop.index == 1 %}active{% endif %}">
                     <img src="{{ asset('/public/build/images/' ~ image) }}" class="d-block w-100" alt="Image #{{ loop.index }}">
                 </div>

@@ -30,13 +30,6 @@ class Project
     private $title;
 
     /**
-     * Images of the project.
-     *
-     * @ORM\Column(type="json")
-     */
-    private $images = [];
-
-    /**
      * Description of the project.
      *
      * @ORM\Column(type="text")
@@ -52,14 +45,39 @@ class Project
     private $tag;
 
     /**
+     * Files of the project.
+     *
      * @ORM\Column(type="json", nullable=true)
      */
     private $files = [];
 
     /**
+     * Slug of the project.
+     *
      * @ORM\Column(type="string", length=255)
      */
     private $slug;
+
+    /**
+     * Context of the project.
+     *
+     * @ORM\Column(type="string", length=255, nullable=true)
+     */
+    private $context;
+
+    /**
+     * Start date of the project.
+     *
+     * @ORM\Column(type="date")
+     */
+    private $startDate;
+
+    /**
+     * End date of the project.
+     *
+     * @ORM\Column(type="date")
+     */
+    private $endDate;
 
     /**
      * Getter of the ID of the project.
@@ -91,30 +109,6 @@ class Project
     public function setTitle(string $title): self
     {
         $this->title = $title;
-
-        return $this;
-    }
-
-    /**
-     * Getter of the images of the project.
-     *
-     * @return array|null
-     */
-    public function getImages(): ?array
-    {
-        return $this->images;
-    }
-
-    /**
-     * Setter of the images of the project.
-     *
-     * @param array $images Images to set to the project.
-     *
-     * @return self
-     */
-    public function setImages(array $images): self
-    {
-        $this->images = $images;
 
         return $this;
     }
@@ -167,11 +161,23 @@ class Project
         return $this;
     }
 
+    /**
+     * Getter of the files of the project.
+     *
+     * @return array|null
+     */
     public function getFiles(): ?array
     {
         return $this->files;
     }
 
+    /**
+     * Setter of the files of the project.
+     *
+     * @param array|null $files Files to set to the project.
+     *
+     * @return self
+     */
     public function setFiles(?array $files): self
     {
         $this->files = $files;
@@ -179,14 +185,98 @@ class Project
         return $this;
     }
 
+    /**
+     * Getter of the slug of the project.
+     *
+     * @return string|null
+     */
     public function getSlug(): ?string
     {
         return $this->slug;
     }
 
+    /**
+     * Setter of the slug of the project.
+     *
+     * @param string $slug Slug to set to the project.
+     *
+     * @return self
+     */
     public function setSlug(string $slug): self
     {
         $this->slug = $slug;
+
+        return $this;
+    }
+
+    /**
+     * Getter of the context of the project.
+     *
+     * @return string|null
+     */
+    public function getContext(): ?string
+    {
+        return $this->context;
+    }
+
+    /**
+     * Setter of the context of the project.
+     *
+     * @param string $context Context to set to the project.
+     *
+     * @return self
+     */
+    public function setContext(string $context): self
+    {
+        $this->context = $context;
+
+        return $this;
+    }
+
+    /**
+     * Getter of the start date of the project.
+     *
+     * @return \DateTimeInterface|null
+     */
+    public function getStartDate(): ?\DateTimeInterface
+    {
+        return $this->startDate;
+    }
+
+    /**
+     * Setter of the start date of the project.
+     *
+     * @param \DateTimeInterface $startDate Start date to set to the project.
+     *
+     * @return self
+     */
+    public function setStartDate(\DateTimeInterface $startDate): self
+    {
+        $this->startDate = $startDate;
+
+        return $this;
+    }
+
+    /**
+     * Getter of the end date of the project.
+     *
+     * @return \DateTimeInterface|null
+     */
+    public function getEndDate(): ?\DateTimeInterface
+    {
+        return $this->endDate;
+    }
+
+    /**
+     * Setter of the end date of the project.
+     *
+     * @param \DateTimeInterface $endDate End date to set to the project.
+     *
+     * @return self
+     */
+    public function setEndDate(\DateTimeInterface $endDate): self
+    {
+        $this->endDate = $endDate;
 
         return $this;
     }
