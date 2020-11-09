@@ -74,3 +74,17 @@ footer .social-media:visited {
 ul.unstyled {
   list-style: none;
 }
+
+.card.unstyled:hover {
+  text-decoration: none;
+  background-color: #f0f3f8;
+}
+
+a.unstyled {
+  color: #0054b3;
+}
+
+a.unstyled:hover {
+  color: black;
+  text-decoration: none;
+}

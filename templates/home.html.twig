@@ -249,16 +249,15 @@
 
 <section id="realisations" class="container-fluid p-5 text-white">
     <h1 class="text-center">Réalisations</h1>
-    <article class="row mt-5">
+    <article class="row mt-5 mx-auto">
         {% for project in projects %}
-        <div class="card col-md-3 text-secondary" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="Image of the project {{ project.title }}">
+        <a href="{{ path('projects', { 'slug': project.slug }) }}" class="card col-md-2 text-secondary mx-3 unstyled shadowing mb-4" style="width: 18rem;">
+            <img src="{{ asset('public/build/images/' ~ project.images.cover) }}" class="card-img-top" alt="Image of the project {{ project.title }}">
             <div class="card-body">
                 <h5 class="card-title">{{ project.title }}</h5>
                 <p class="font-italic">{{ project.tag }}</p>
-                <a href="{{ path('project', { 'id': project.id }) }}" class="btn btn-primary">En savoir plus</a>
             </div>
-        </div>
+        </a>
         {% endfor %}
     </article>
 
