@@ -76,6 +76,7 @@ Encore
     .addStyleEntry('home_css', './assets/css/home.css')
     .addStyleEntry('timeline_css', './assets/css/timeline.css')
     .addStyleEntry('project_css', './assets/css/project.css')
+    .addStyleEntry('error_css', './assets/css/error.css')
 
     .copyFiles({
         from: './assets/images',
