@@ -68,13 +68,8 @@ Encore
 
     // uncomment if you use API Platform Admin (composer req api-admin)
     .enableReactPreset()
-    //.addEntry('admin', './assets/admin.js')
     .addEntry('home', './assets/js/home.js')
-    .addEntry('Age', './assets/js/components/Age.js')
 
-    .addStyleEntry('style_css', './assets/css/style.css')
-    .addStyleEntry('home_css', './assets/css/home.css')
-    .addStyleEntry('timeline_css', './assets/css/timeline.css')
     .addStyleEntry('project_css', './assets/css/project.css')
     .addStyleEntry('error_css', './assets/css/error.css')
 

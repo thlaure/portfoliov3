@@ -1,3 +1,10 @@
+import '../styles/home.css';
+import '../css/home.css';
+import '../css/timeline.css';
+
+import $ from 'jquery';
+import './components/Age';
+
 /**
  * Scroll to the section of the given id.
  *

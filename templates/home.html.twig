@@ -2,8 +2,7 @@
 
 {% block stylesheets %}
 {{ parent() }}
-{{ encore_entry_link_tags('home_css') }}
-{{ encore_entry_link_tags('timeline_css') }}
+{{ encore_entry_link_tags('home') }}
 {% endblock %}
 
 {% block inner_body %}
@@ -270,5 +269,4 @@
 {% block javascripts %}
 {{ parent() }}
 {{ encore_entry_script_tags('home') }}
-{{ encore_entry_script_tags('Age') }}
 {% endblock %}
