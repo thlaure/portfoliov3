@@ -11,7 +11,7 @@
     <div class="row">
         <div class="mx-auto">
             <section>
-                <h1>Thomas LAURE</h1>
+                <h1 class="display-4">Thomas LAURE</h1>
                 <hr class="sm-separator w-25">
                 <h2>Développeur web - Symfony / Node.js / React.js</h2>
                 <h2 class="text-white">&</h2>
@@ -71,11 +71,11 @@
             <p class="text-justify">Pour toute question, n'hésitez pas à me contacter !</p>
         </article>
         <div class="col-md-4 text-center">
-            <img class="rounded shadowing w-50" src="{{ asset('public/build/images/portrait.jpg') }}" alt="Portrait">
+            <img class="rounded shadowing w-50" src="{{ asset('public/build/images/portrait.jpg') }}" width="100%" height="auto" alt="Portrait">
         </div>
         <article class="col-md-2 mt-3">
             <h3>Centres d'intérêt</h3>
-            <ul class="unstyled">
+            <ul class="list-unstyled">
                 <li><i class="fas fa-code"></i> Développement</li>
                 <li><i class="fas fa-desktop"></i> Informatique</li>
                 <li><i class="fas fa-microchip"></i> Hardware</li>
@@ -92,7 +92,7 @@
         </article>
         <article class="col-md-2 mt-3">
             <h3>Soft skills</h3>
-            <ul class="unstyled">
+            <ul class="list-unstyled">
                 <li><i class="fas fa-id-badge"></i> Permis B / A2 et véhiculé</li>
                 <li><i class="fas fa-user-clock"></i> Ponctualité</li>
                 <li><i class="fas fa-tools"></i> Créativité</li>
@@ -252,7 +252,7 @@
     <article class="row mt-5">
         {% for project in projects %}
         <a href="{{ path('projects', { 'slug': project.slug }) }}" class="card col-md-2 text-secondary mx-3 unstyled shadowing mb-4" style="width: 18rem;">
-            <img src="{{ asset('public/build/images/' ~ project.files.cover) }}" class="card-img-top" alt="Image of the project {{ project.title }}">
+            <img src="{{ asset('public/build/images/' ~ project.files.cover) }}" class="card-img-top" width="400" height="auto" alt="Image of the project {{ project.title }}">
             <div class="card-body">
                 <p class="card-title h5">{{ project.title }}</p>
                 <p class="font-italic">{{ project.tag }}</p>
