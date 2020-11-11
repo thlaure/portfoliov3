@@ -10,8 +10,7 @@ import './styles/app.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/style.css';
-import 'bootstrap';
-import "@fortawesome/fontawesome-free/js/all.min.js";
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
 // import $ from 'jquery';
