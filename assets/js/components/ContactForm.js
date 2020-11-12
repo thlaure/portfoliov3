@@ -97,6 +97,7 @@ class ContactForm extends Component {
           <Input type="text" name="name" value={this.state.name} onChange={this.handleChange}>Votre nom</Input>
           <Input type="text" name="firstname" value={this.state.firstname} onChange={this.handleChange}>Votre prénom</Input>
           <Input type="email" name="email" value={this.state.email} onChange={this.handleChange}>Votre email</Input>
+          <small className="mx-auto form-text text-light">Votre adresse mail ne sera pas partagée</small>
         </div>
         <div className="col-md-8">
           <Textarea name="message" rows="8" value={this.state.message} onChange={this.handleChange}>Votre message</Textarea>
