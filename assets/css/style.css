@@ -84,3 +84,7 @@ a.unstyled:hover {
   color: black;
   text-decoration: none;
 }
+
+.bg-dark-smoke {
+  background-color: #484d51;
+}

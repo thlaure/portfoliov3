@@ -4,6 +4,7 @@ import '../css/timeline.css';
 
 import $ from 'jquery';
 import './components/Age';
+import './components/ContactForm';
 
 /**
  * Scroll to the section of the given id.
@@ -22,8 +23,9 @@ scrollTo("timeline", "smooth", "start");
 scrollTo("skills", "smooth", "start");
 scrollTo("realisations", "smooth", "start");
 scrollTo("title", "smooth", "start");
+scrollTo("contact", "smooth", "start");
 
-$(window).scroll(function () {
+$(window).on("scroll", function () {
   //set scroll position in session storage
   sessionStorage.scrollPos = $(window).scrollTop();
 });

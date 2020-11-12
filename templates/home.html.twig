@@ -18,7 +18,7 @@
                 <hr class="sm-separator w-25">
             </section>
             <div>
-                <a href="mailto:thomaslaure3@gmail.com" class="btn btn-light font-weight-bold mt-3" id="contact-button"><i class="fas fa-envelope-square"></i> ME CONTACTER</a>
+                <button class="btn btn-light font-weight-bold mt-3" id="scroll-contact"><i class="fas fa-envelope-square"></i> ME CONTACTER</button>
                 <div class="row social">
                     <div class="ml-auto mr-3 mt-2">
                         <a href="https://twitter.com/laure_th" class="social-media twitter" role="button" title="Twitter"><i class="fab fa-twitter"></i></a>
@@ -70,7 +70,7 @@
             <p class="text-justify">Pour toute question, n'hésitez pas à me contacter !</p>
         </article>
         <div class="col-md-4 text-center">
-            <img class="rounded shadowing w-50" src="{{ asset('public/build/images/portrait.jpg') }}" width="100%" height="auto" alt="Portrait">
+            <img class="rounded shadowing w-50" src="{{ asset('public/build/images/portrait.jpg') }}" width="100" alt="Portrait">
         </div>
         <article class="col-md-2 mt-3">
             <h3>Centres d'intérêt</h3>
@@ -248,21 +248,26 @@
 
 <section id="realisations" class="container-fluid p-5 text-white">
     <h1 class="text-center">Réalisations</h1>
-    <article class="row mt-5">
+    <div class="row mt-5">
         {% for project in projects %}
         <a href="{{ path('projects', { 'slug': project.slug }) }}" class="card col-md-2 text-secondary mx-3 unstyled shadowing mb-4" style="width: 18rem;">
-            <img src="{{ asset('public/build/images/' ~ project.files.cover) }}" class="card-img-top" width="400" height="auto" alt="Image of the project {{ project.title }}">
+            <img src="{{ asset('public/build/images/' ~ project.files.cover) }}" class="card-img-top" width="400" alt="Image of the project {{ project.title }}">
             <div class="card-body">
                 <p class="card-title h5">{{ project.title }}</p>
                 <p class="font-italic">{{ project.tag }}</p>
             </div>
         </a>
         {% endfor %}
-    </article>
+    </div>
 
     <div class="mt-5 text-center">
         <button class="btn btn-light rounded-pill p-3" id="scroll-title" title="Scroll to the title"><i class="fas fa-arrow-up"></i></button>
     </div>
+</section>
+
+<section id="contact" class="container-fluid p-5">
+    <h1 class="text-center">Me contacter</h1>
+    <div id="contact-form" class="mt-5"></div>
 </section>
 {% endblock %}
 
