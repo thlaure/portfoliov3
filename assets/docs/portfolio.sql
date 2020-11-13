@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 10, 2020 at 03:57 PM
+-- Generation Time: Nov 13, 2020 at 07:44 PM
 -- Server version: 8.0.21
 -- PHP Version: 7.4.9
 
@@ -68,7 +68,8 @@ CREATE TABLE IF NOT EXISTS `project` (
   `context` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `start_date` date NOT NULL,
   `end_date` date NOT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `slug` (`slug`)
 ) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
