@@ -8,9 +8,11 @@
 {% endblock %}
 
 {% block inner_body %}
-<div class="fluid-container">
+<div>
     <div class="parallax-header-project">
-        <a href="{{ path('home') }}" class="btn btn-light rounded-pill p-md-3 font-weight-bold col-md-2 mt-3 mx-md-3" title="Return to home"><i class="fas fa-arrow-left"></i> Retour</a>
+        <div class="container-fluid">
+            <a href="{{ path('home') }}" class="btn btn-light rounded-pill p-md-3 font-weight-bold col-md-2 mt-3 mx-md-3" title="Return to home"><i class="fas fa-arrow-left"></i> Retour</a>
+        </div>
         <h1 class="text-monospace text-center text-light mt-4">{{ project.title }}</h1>
         <hr class="sm-separator w-25">
         <h2 class="text-center text-light font-italic font-weight-light">{{ project.tag }}</h2>
