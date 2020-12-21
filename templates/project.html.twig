@@ -8,7 +8,7 @@
 {% endblock %}
 
 {% block inner_body %}
-<div>
+<div class="bg-icesmoke">
     <div class="parallax-header-project">
         <div class="container-fluid">
             <a href="{{ path('home') }}" class="btn btn-light rounded-pill p-md-3 font-weight-bold col-md-2 mt-3 mx-md-3" title="Return to home"><i class="fas fa-arrow-left"></i> Retour</a>
@@ -17,7 +17,7 @@
         <hr class="sm-separator w-25">
         <h2 class="text-center text-light font-italic font-weight-light">{{ project.tag }}</h2>
     </div>
-    <div class="mt-5 container">
+    <div class="mt-5 pb-5 container">
         {% if project.context|length > 0 %}
         <p class="lead font-weight-bolder"><i class="fas fa-map-marker-alt"></i> {{ project.context }}</p>
         {% endif %}
@@ -26,18 +26,18 @@
         <p class="lead text-justify">{{ project.description|nl2br }}</p>
 
         {% if project.files is defined %}
-        {% for file in project.files.files %}
-        <div><a href="{{ asset('/public/build/docs/' ~ file.path) }}" class="lead unstyled"><i class="far fa-file-alt"></i> {{ file.title }}</a></div>
-        {% endfor %}
+            {% for file in project.files.files %}
+            <div><a href="{{ asset('/public/build/docs/' ~ file.path) }}" class="lead unstyled"><i class="far fa-file-alt"></i> {{ file.title }}</a></div>
+            {% endfor %}
         {% endif %}
 
         {% if project.files.links is defined %}
-        {% for link in project.files.links %}
-        <div><a href="{{ link.path }}" class="lead unstyled"><i class="fas fa-external-link-alt"></i> {{ link.title }}</a></div>
-        {% endfor %}
+            {% for link in project.files.links %}
+            <div><a href="{{ link.path }}" class="lead unstyled"><i class="fas fa-external-link-alt"></i> {{ link.title }}</a></div>
+            {% endfor %}
         {% endif %}
 
-        {% if project.files.images is defined %}
+        {% if project.files.images|length > 0 %}
         <div id="carouselIndicators" class="carousel slide mt-5" data-ride="carousel">
             <ol class="carousel-indicators">
                 {% for i in 0..project.files.images|length %}
