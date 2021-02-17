@@ -37,27 +37,27 @@ class FormController extends AbstractController
         if (isset($request->request)) {
             $data = $request->request->all();
             $email = (new TemplatedEmail())
-            ->from($data["email"])
+            ->from($data['email'])
             ->to('thomaslaure3@gmail.com')
             ->subject('Portfolio contact')
-            ->htmlTemplate("emails/contact.html.twig")
+            ->htmlTemplate('emails/contact.html.twig')
             ->context([
-                "name" => $data["name"],
-                "firstname" => $data["firstname"],
-                "email_from" => $data["email"],
-                "message" => $data["message"]
+                'name' => $data['name'],
+                'firstname' => $data['firstname'],
+                'email_from' => $data['email'],
+                'message' => $data['message']
             ]);
 
             try {
                 $mailer->send($email);
             } catch (TransportExceptionInterface $exception) {
                 echo $exception->getMessage();
-                return new JsonResponse(["message" => "Une erreur est survenue lors de l'envoi du formulaire"]);
+                return new JsonResponse(['message' => 'Une erreur est survenue lors de l\'envoi du formulaire']);
             }
 
-            return new JsonResponse(["message" => "Votre message a été envoyé"]);
+            return new JsonResponse(['message' => 'Votre message a été envoyé']);
         } else {
-            return new JsonResponse(["message" => "Une erreur est survenue lors de l'envoi du formulaire"]);
+            return new JsonResponse(['message' => 'Une erreur est survenue lors de l\'envoi du formulaire']);
         }
     }
 }
