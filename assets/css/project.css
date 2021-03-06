@@ -1,7 +1,10 @@
 .parallax-header-project {
-  background: linear-gradient(to right, rgba(119, 124, 128, 0.6), rgba(59, 62, 64, 0.9)), url("/public/build/images/laptop.jpg") no-repeat scroll center 0;
+  background: linear-gradient(to right, rgba(119, 124, 128, 0.4), rgba(59, 62, 64, 0.7)), url("/public/build/images/notebook.jpg") no-repeat center 0;
   background-size: cover;
-  background-attachment: fixed;
-  background-position: bottom;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   height: 300px;
 }

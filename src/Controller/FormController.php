@@ -39,6 +39,7 @@ class FormController extends AbstractController
             $email = (new TemplatedEmail())
             ->from($data['email'])
             ->to('thomaslaure3@gmail.com')
+            // ->to('thomas.laure@ik.me')
             ->subject('Portfolio contact')
             ->htmlTemplate('emails/contact.html.twig')
             ->context([
