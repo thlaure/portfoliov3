@@ -234,15 +234,15 @@
     <section id="realisations" class="container-fluid p-5 text-white">
         <h1 class="text-center">Réalisations</h1>
         <div class="row mt-5">
-            <?php foreach ($projects as $project) : ?>
-                <a href="/projects/<?= $project->slug ?>" class="card col-md-2 text-secondary mx-3 unstyled shadowing mb-4" style="width: 18rem;">
-                    <img src="../assets/images/<?= $project->files->cover ?>" class="card-img-top" width="400" alt="Image of the project <?= $project->title ?>">
+            <?php for ($i = 0; $i < count($projects); ++$i) : ?>
+                <a href="/projects/<?= $projects[$i]->slug ?>" class="card col-md-2 text-secondary mx-3 unstyled shadowing mb-4" style="width: 18rem;">
+                    <img src="../assets/images/<?= $projects[$i]->files->cover ?>" class="card-img-top" width="400" alt="Image of the project <?= $projects[$i]->title ?>">
                     <div class="card-body">
-                        <p class="card-title h5"><?= $project->title ?></p>
-                        <p class="font-italic"><?= $project->title ?></p>
+                        <p class="card-title h5"><?= $projects[$i]->title ?></p>
+                        <p class="font-italic"><?= $projects[$i]->title ?></p>
                     </div>
                 </a>
-            <?php endforeach ?>
+            <?php endfor ?>
         </div>
 
         <div class="mt-5 text-center">
