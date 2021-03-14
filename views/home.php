@@ -117,98 +117,74 @@
     </section>
 
     <div id="timeline">
-        <section id="cd-timeline" class="cd-container">
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"></div>
-                <div class="cd-timeline-content shadowing">
-                    <h4>Bénévole pour We Act 4 Earth</h4>
-                    <div class="timeline-content-info">
-                        <span class="timeline-content-info-date"><i class="far fa-calendar-alt"></i> Février 2021 - Aujourd'hui</span>
-                    </div>
-                    <p>We Act 4 Earth est un collectif qui accompagne les entrepreneur.e.s sur le chemin de la transition écologique.</p>
-                    <p>Nous proposons un grand nombre de ressources et de formations pour aider les entrepreneur.e.s à sauter le pas.</p>
-                    <p>Du numérique responsable aux éco-gestes en entreprise, plus de 45 bénévoles du collectif ont travaillé pendant plusieurs mois à la création d'une plateforme en ligne aux sujets variés, ludiques et pédagogiques.</p>
-                    <div>
-                        <img src="../assets/images/BadgeWA4E.png" width="100" alt="WA4E badge">
-                    </div>
-                </div>
-            </div>
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"></div>
-                <div class="cd-timeline-content shadowing">
-                    <h4>Ecole d'ingénieur du Cnam</h4>
-                    <div class="timeline-content-info">
-                        <span class="timeline-content-info-date"><i class="far fa-calendar-alt"></i> Septembre 2018 - Août 2021</span>
-                    </div>
-                    <p>Cursus ingénieur informatique au Cnam à <a href="https://www.coexel.com/">Coexel</a> société éditrice de MyTwip, solution de veille technologique et stratégique tous secteurs, en tant que développeur web full-stack Node.js, PHP et Python.</p>
-                    <p>Participation à la vie étudiante en tant que délégué de la promotion et membre du Bureau Des Etudiants.</p>
-                    <ul>
-                        <li>Développement d'un web scraper basé sur les technologies Node.js, <a href="http://expressjs.com/">Express</a> et <a href="https://developers.google.com/web/tools/puppeteer/">Puppeteer</a></li>
-                        <li>Participation au développement d'interfaces client</li>
-                        <li>Développement de modules complémentaires PHP, JavaScript et Python à la solution MyTwip</li>
-                        <li>Extraction et mise en forme de données de plusieurs supports (CSV, base de données, XML) dans les langages PHP, JavaScript et Python</li>
-                        <li>Projet de Machine Learning, utilisation de Python et <a href="https://jupyter.org/">Jupyter</a> dans un environnement <a href="https://www.anaconda.com/">Anaconda</a></li>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-7 mx-auto">
+                    <ul class="timeline">
+                        <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                            <div class="timeline-arrow"></div>
+                            <h4 class="h5 mb-0">Bénévole pour We Act 4 Earth</h4><span class="small text-gray"><i class="far fa-clock"></i> Février 2021 - Aujourd'hui</span>
+                            <p class="text-small mt-2 font-weight-light">We Act 4 Earth est un collectif qui accompagne les entrepreneur.e.s sur le chemin de la transition écologique.</p>
+                            <p class="text-small mt-2 font-weight-light">Nous proposons un grand nombre de ressources et de formations pour aider les entrepreneur.e.s à sauter le pas.</p>
+                            <p class="text-small mt-2 font-weight-light">Du numérique responsable aux éco-gestes en entreprise, plus de 45 bénévoles du collectif ont travaillé pendant plusieurs mois à la création d'une plateforme en ligne aux sujets variés, ludiques et pédagogiques.</p>
+                            <div>
+                                <img src="../assets/images/BadgeWA4E.png" width="100" alt="WA4E badge">
+                            </div>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                            <div class="timeline-arrow"></div>
+                            <h4 class="h5 mb-0">Ecole d'ingénieur du Cnam</h4><span class="small text-gray"><i class="far fa-clock"></i> Septembre 2018 - Août 2021</span>
+                            <p class="text-small mt-2 font-weight-light">Cursus ingénieur informatique au Cnam à <a href="https://www.coexel.com/">Coexel</a> société éditrice de MyTwip, solution de veille technologique et stratégique tous secteurs, en tant que développeur web full-stack Node.js, PHP et Python.</p>
+                            <p class="text-small mt-2 font-weight-light">Participation à la vie étudiante en tant que délégué de la promotion et membre du Bureau Des Etudiants.</p>
+                            <ul>
+                                <li class="text-small font-weight-light">Développement d'un web scraper basé sur les technologies Node.js, <a href="http://expressjs.com/">Express</a> et <a href="https://developers.google.com/web/tools/puppeteer/">Puppeteer</a></li>
+                                <li class="text-small font-weight-light">Participation au développement d'interfaces client</li>
+                                <li class="text-small font-weight-light">Développement de modules complémentaires PHP, JavaScript et Python à la solution MyTwip</li>
+                                <li class="text-small font-weight-light">Extraction et mise en forme de données de plusieurs supports (CSV, base de données, XML) dans les langages PHP, JavaScript et Python</li>
+                                <li class="text-small font-weight-light">Projet de Machine Learning, utilisation de Python et <a href="https://jupyter.org/">Jupyter</a> dans un environnement <a href="https://www.anaconda.com/">Anaconda</a></li>
+                            </ul>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                            <div class="timeline-arrow"></div>
+                            <h4 class="h5 mb-0">Développeur Symfony freelance</h4><span class="small text-gray"><i class="far fa-clock"></i> Juillet 2018 - Novembre 2018</span>
+                            <p class="text-small mt-2 font-weight-light">Participation au développement d'un site e-commerce de balles de golf personnalisables pour RM Concept.</p>
+                            <ul>
+                                <li class="text-small font-weight-light">Assistance à maîtrise d'ouvrage dans la rédaction du cahier des charges</li>
+                                <li class="text-small font-weight-light">Conception et mise en place de la base de données MySQL</li>
+                                <li class="text-small font-weight-light">Développement d'une interface d'administration permettant de gérer les produits, les clients et les factures</li>
+                                <li class="text-small font-weight-light">Développement de l'interface client</li>
+                                <li class="text-small font-weight-light">Création d'une page de création de compte et de connexion (de manière sécurisée) ainsi qu'une interface permettant au client de suivre ses commandes</li>
+                                <li class="text-small font-weight-light">Développement du module permettant la personnalisation des balles</li>
+                                <li class="text-small font-weight-light">Réunions régulières avec le collaborateur pour présenter les livrables et redéfinir les fonctionalités au besoin</li>
+                            </ul>
+                            <p class="text-small mt-2 font-weight-light">Le site est actuellement déployé.</p>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                            <div class="timeline-arrow"></div>
+                            <h4 class="h5 mb-0">BTS SIO option SLAM</h4><span class="small text-gray"><i class="far fa-clock"></i> Septembre 2016 - Juin 2018</span>
+                            <p class="text-small mt-2 font-weight-light">Obtention du <a href="https://bts-sio.lyc-bonaparte.fr/">BTS SIO option SLAM</a> du <a href="http://www.lyc-bonaparte.fr/">lycée Bonaparte</a> de Toulon - <a href="https://www.cyberedu.fr/pages/label-2019-001/">Label CyberEdu</a></p>
+                            <p class="text-small mt-2 font-weight-light">2 stages de 6 semaines à la CPAM du Var de Toulon en tant que développeur Java EE et web.</p>
+                            <ul>
+                                <li class="text-small font-weight-light">Stage de 2ème année à la CPAM du Var (6 semaines) : Conception de la base de données du projet, et participation au développement d'une application web Java EE et d'une application JavaScript qui ont pour but d'aider les professionnels de santé à trouver un bassin d'installation et de les inviter à s'installer dans les endroits où ils sont peu présents.</li>
+                                <li class="text-small font-weight-light">Stage de 1ère année à la CPAM du Var (6 semaines) : Participation au développement d'une application web Java EE permettant de recenser au service comptable les cas de mobilités bancaires chez les assurés.</li>
+                            </ul>
+                            <p class="text-small mt-2 font-weight-light">Les 2 projets sont actuellement en production.</p>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                            <div class="timeline-arrow"></div>
+                            <h4 class="h5 mb-0">1 an à l'Université</h4><span class="small text-gray"><i class="far fa-clock"></i> Septembre 2015 - Avril 2016</span>
+                            <p class="text-small mt-2 font-weight-light">Premier semestre en DUT Génie Mécanique et Productique à l'Université de Toulon, mais bien qu'intéressante la formation ne me correspondait pas, je me suis réorienté au second semestre en licence Sciences pour l'Ingénieur dans le but de préparer mon entrée en BTS SIO.</p>
+                            <p class="text-small mt-2 font-weight-light">Compétences acquises : dessin industriel, modélisation 3D, métrologie, tournage et fraisage</p>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                            <div class="timeline-arrow"></div>
+                            <h4 class="h5 mb-0">Bac S option SI</h4><span class="small text-gray"><i class="far fa-clock"></i> Septembre 2012 - Juin 2015</span>
+                            <p class="text-small mt-2 font-weight-light">Obtention du Baccalauréat Scientifique option Sciences de l'Ingénieur au lycée Costebelle à Hyères.</p>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"></div>
-                <div class="cd-timeline-content shadowing">
-                    <h4>Expérience en tant que développeur Symfony freelance</h4>
-                    <div class="timeline-content-info">
-                        <span class="timeline-content-info-date"><i class="far fa-calendar-alt"></i> Juillet 2018 - Novembre 2018</span>
-                    </div>
-                    <p>Participation au développement d'un site e-commerce de balles de golf personnalisables pour RM Concept.</p>
-                    <ul>
-                        <li>Assistance à maîtrise d'ouvrage dans la rédaction du cahier des charges</li>
-                        <li>Conception et mise en place de la base de données MySQL</li>
-                        <li>Développement d'une interface d'administration permettant de gérer les produits, les clients et les factures</li>
-                        <li>Développement de l'interface client</li>
-                        <li>Création d'une page de création de compte et de connexion (de manière sécurisée) ainsi qu'une interface permettant au client de suivre ses commandes</li>
-                        <li>Développement du module permettant la personnalisation des balles</li>
-                        <li>Réunions régulières avec le collaborateur pour présenter les livrables et redéfinir les fonctionalités au besoin</li>
-                    </ul>
-                    <p>Le site est actuellement déployé.</p>
-                </div>
-            </div>
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"></div>
-                <div class="cd-timeline-content shadowing">
-                    <h4>BTS SIO option SLAM</h4>
-                    <div class="timeline-content-info">
-                        <span class="timeline-content-info-date"><i class="far fa-calendar-alt"></i> Septembre 2016 - Juin 2018</span>
-                    </div>
-                    <p>Obtention du <a href="https://bts-sio.lyc-bonaparte.fr/">BTS SIO option SLAM</a> du <a href="http://www.lyc-bonaparte.fr/">lycée Bonaparte</a> de Toulon - <a href="https://www.cyberedu.fr/pages/label-2019-001/">Label CyberEdu</a></p>
-                    <p>2 stages de 6 semaines à la CPAM du Var de Toulon en tant que développeur Java EE et web.</p>
-                    <ul>
-                        <li>Stage de 2ème année à la CPAM du Var (6 semaines) : Conception de la base de données du projet, et participation au développement d'une application web Java EE et d'une application JavaScript qui ont pour but d'aider les professionnels de santé à trouver un bassin d'installation et de les inviter à s'installer dans les endroits où ils sont peu présents.</li>
-                        <li>Stage de 1ère année à la CPAM du Var (6 semaines) : Participation au développement d'une application web Java EE permettant de recenser au service comptable les cas de mobilités bancaires chez les assurés.</li>
-                    </ul>
-                    <p>Les 2 projets sont actuellement en production.</p>
-                </div>
-            </div>
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"></div>
-                <div class="cd-timeline-content shadowing">
-                    <h4>1 an à l'Université</h4>
-                    <div class="timeline-content-info">
-                        <span class="timeline-content-info-date"><i class="far fa-calendar-alt"></i> Septembre 2015 - Avril 2016</span>
-                    </div>
-                    <p>Premier semestre en DUT Génie Mécanique et Productique à l'Université de Toulon, mais bien qu'intéressante la formation ne me correspondait pas, je me suis réorienté au second semestre en licence Sciences pour l'Ingénieur dans le but de préparer mon entrée en BTS SIO.</p>
-                    <p>Compétences acquises : dessin industriel, modélisation 3D, métrologie, tournage et fraisage</p>
-                </div>
-            </div>
-            <div class="cd-timeline-block">
-                <div class="cd-timeline-img cd-picture"></div>
-                <div class="cd-timeline-content shadowing">
-                    <h4>Bac S option SI</h4>
-                    <div class="timeline-content-info">
-                        <span class="timeline-content-info-date"><i class="far fa-calendar-alt"></i> Septembre 2012 - Juin 2015</span>
-                    </div>
-                    <p>Obtention du Baccalauréat Scientifique option Sciences de l'Ingénieur au lycée Costebelle à Hyères. </p>
-                </div>
-            </div>
-        </section>
+        </div>
     </div>
 
     <section id="skills" class="container-fluid p-5">
