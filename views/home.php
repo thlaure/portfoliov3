@@ -5,7 +5,6 @@
     <?php include(__DIR__ . '/head.inc.php'); ?>
     <link rel="stylesheet" href="../assets/css/home.min.css">
     <link rel="stylesheet" href="../assets/css/timeline.min.css">
-    <script src="../assets/js/home.min.js" defer></script>
 </head>
 
 <body>
@@ -235,11 +234,11 @@
         <h1 class="text-center">Réalisations</h1>
         <div class="row mt-5">
             <?php for ($i = 0; $i < count($projects); ++$i) : ?>
-                <a href="/projects/<?= $projects[$i]->slug ?>" class="card col-md-2 text-secondary mx-3 unstyled shadowing mb-4" style="width: 18rem;">
+                <a href="/projects/<?= $projects[$i]->slug ?>" class="card col-md-2 text-secondary mx-3 unstyled shadowing mb-4 p-0" style="width: 18rem;">
                     <img src="../assets/images/<?= $projects[$i]->files->cover ?>" class="card-img-top" width="400" alt="Image of the project <?= $projects[$i]->title ?>">
                     <div class="card-body">
                         <p class="card-title h5"><?= $projects[$i]->title ?></p>
-                        <p class="font-italic"><?= $projects[$i]->title ?></p>
+                        <p class="font-italic"><?= $projects[$i]->tag ?></p>
                     </div>
                 </a>
             <?php endfor ?>
@@ -254,37 +253,39 @@
         <h1 class="text-center">Me contacter</h1>
         <div id="contact-form" class="mt-5">
             <form class="container shadowing p-3 bg-dark-smoke text-light rounded">
-                <div class="text-center alert " role="alert"></div>
+                <div id="alert-contact" class="" role="alert"></div>
                 <div class="form-row">
                     <div class="col-md-4">
                         <div class="form-group">
                             <label for="name">Votre nom</label>
-                            <input type="text" id="name" name="name" class="form-control" value="">
+                            <input type="text" id="name" name="name" class="form-control" value="" required>
                         </div>
                         <div class="form-group">
                             <label for="firstname">Votre prénom</label>
-                            <input type="text" id="firstname" name="firstname" class="form-control" value="">
+                            <input type="text" id="firstname" name="firstname" class="form-control" value="" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Votre email</label>
-                            <input type="email" id="email" name="email" class="form-control" value="">
+                            <input type="email" id="email" name="email" class="form-control" value="" required>
                         </div>
-                        <small class="mx-auto form-text text-light">Votre adresse mail ne sera pas partagée</small>
+                        <small class="mx-auto form-text text-light">Aucune information ne sera pas partagée</small>
                     </div>
                     <div class="col-md-8">
                         <div class="form-group">
                             <label for="message">Votre message</label>
-                            <textarea class="form-control" id="message" name="message" rows="8"></textarea>
+                            <textarea class="form-control" id="message" name="message" rows="8" required></textarea>
                         </div>
                     </div>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-light"><i class="fas fa-paper-plane" aria-hidden="true"></i> Envoyer</button>
+                    <button class="btn btn-light" id="send-mail"><i class="fas fa-paper-plane" aria-hidden="true"></i> Envoyer</button>
                 </div>
             </form>
         </div>
     </section>
     <?php include(__DIR__ . '/footer.inc.php'); ?>
+    <script src="../assets/js/home.min.js"></script>
+    <script src="../assets/js/contact.min.js"></script>
 </body>
 
 </html>

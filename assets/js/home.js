@@ -48,6 +48,4 @@
     $(window).scrollTop(sessionStorage.scrollPos || 0)
   };
   window.onload = init;
-
-
 })();
