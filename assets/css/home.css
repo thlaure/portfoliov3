@@ -10,39 +10,19 @@
   -o-background-size: cover;
 }
 
-#presentation {
-  color: #212121;
-}
-
-#timeline {
-  background: linear-gradient(to right, rgba(232,203,192,.75), rgba(99,111,164,.75)),url(../images/mountains.svg) no-repeat center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-
-#contact,
-#presentation,
-#skills {
-  background-color: #f0f3f8;
-}
-
-#presentation article a {
-  color: #0054b3;
-}
-
-#presentation a:hover {
-  color: #000;
-  text-decoration: none;
-}
-
+#timeline,
 #realisations {
   background: linear-gradient(to right, rgba(232,203,192,.75), rgba(99,111,164,.75)),url(../images/mountains.svg) no-repeat center;
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+}
+
+#presentation a:hover,
+#timeline a:hover {
+  color: #000;
+  text-decoration: none;
 }
 
 .button {
@@ -54,7 +34,7 @@
   outline: 0;
   font-size: 18px;
   margin: 1em 0.8em;
-  color: #212121;
+  color: #000 !important;
 }
 
 .button.animated-corners::after,
@@ -74,8 +54,8 @@
   right: 0;
   border-top-color: transparent;
   border-left-color: transparent;
-  border-bottom-color: #212121;
-  border-right-color: #212121;
+  border-bottom-color: #000;
+  border-right-color: #000;
 }
 
 .button.animated-corners::before {
@@ -83,8 +63,8 @@
   left: 0;
   border-bottom-color: transparent;
   border-right-color: transparent;
-  border-top-color: #212121;
-  border-left-color: #212121;
+  border-top-color: #000;
+  border-left-color: #000;
 }
 
 .button.animated-corners:hover:after,

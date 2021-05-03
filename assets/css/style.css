@@ -4,10 +4,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.separator {
-  border-top: 5px solid rgba(255, 255, 255, 0.75);
-}
-
 .sm-separator {
   border-top: 2px solid rgba(255, 255, 255, 0.75);
 }
@@ -52,16 +48,13 @@ footer .social-media:visited {
   padding: 2% 3%;
 }
 
+.btn-light:hover {
+  background-color: white;
+  border-color: white;
+}
+
 .shadowing {
   box-shadow: 0 6px 20px -8px rgba(0, 0, 0, 0.7);
-}
-
-.blockquote-footer {
-  color: #565d64;
-}
-
-.bg-icesmoke {
-  background-color: #f0f3f8;
 }
 
 .bg-dark-smoke {

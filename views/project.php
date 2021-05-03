@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <div class="bg-icesmoke">
+    <div>
         <div class="parallax-header-project">
             <div class="container-fluid">
                 <a href="/" class="btn btn-light rounded-pill p-md-3 font-weight-bold col-md-2 mt-3 mx-md-3" title="Return to home"><i class="fas fa-arrow-left"></i> Retour</a>

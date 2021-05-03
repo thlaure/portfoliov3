@@ -15,7 +15,7 @@
                     <h1 class="display-4">Thomas LAURE</h1>
                     <hr class="sm-separator w-25">
                     <h2>Développeur web - Symfony / Node.js / React.js</h2>
-                    <h2 class="text-white">&</h2>
+                    <h2>&</h2>
                     <h2>Apprenti ingénieur informatique au Conservatoire National des Arts et Métiers</h2>
                     <hr class="sm-separator w-25">
                 </section>
@@ -54,7 +54,7 @@
         </div>
     </div>
 
-    <section class="container-fluid p-5 bg-icesmoke" id="presentation">
+    <section class="container-fluid p-5" id="presentation">
         <h1 class="text-center">À propos</h1>
         <div class="row mt-5">
             <div class="col-md-2 center mt-3">
