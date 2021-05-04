@@ -55,6 +55,12 @@
     </div>
 
     <section class="container-fluid p-5" id="presentation">
+        <blockquote class="blockquote text-center my-5">
+            <p class="mb-0 text-monospace"><?= $citations[$index]->text ?></p>
+            <?php if ($citations[$index]->from) : ?>
+                <footer class="blockquote-footer"><?= $citations[$index]->from ?></footer>
+            <?php endif ?>
+        </blockquote>
         <h1 class="text-center">À propos</h1>
         <div class="row mt-5">
             <div class="col-md-2 center mt-3">
