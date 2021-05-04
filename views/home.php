@@ -140,7 +140,8 @@
                                 <li class="text-small font-weight-light">Participation au développement d'interfaces client</li>
                                 <li class="text-small font-weight-light">Développement de modules complémentaires PHP, JavaScript et Python à la solution MyTwip</li>
                                 <li class="text-small font-weight-light">Extraction et mise en forme de données de plusieurs supports (CSV, base de données, XML) dans les langages PHP, JavaScript et Python</li>
-                                <li class="text-small font-weight-light">Projet de Machine Learning, utilisation de Python et <a href="https://jupyter.org/">Jupyter</a> dans un environnement <a href="https://www.anaconda.com/">Anaconda</a></li>
+                                <li class="text-small font-weight-light">Projet de mise en place d'algorithme semi-automatisé permettant d'extraire des actualités depuis des sites</li>
+                                <li class="text-small font-weight-light">Mise en place de la charte RSE de l'entreprise (Responsabilité Sociétale des Entreprises)</li>
                             </ul>
                         </li>
                         <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
