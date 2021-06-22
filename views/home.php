@@ -111,7 +111,7 @@
                     <li><i class="fas fa-info"></i> Veille technologique</li>
                     <li><i class="fas fa-leaf"></i> Green IT / Ecoconception</li>
                     <li><i class="fas fa-tasks"></i> Organisation / Gestion</li>
-                    <li><i class="fas fa-language"></i> TOEIC : 615 points</li>
+                    <li><i class="fas fa-language"></i> TOEIC : 845 points</li>
                     <li><img src="../assets/images/logo_voltaire.png" alt="Volaire"> Certificat Voltaire : <a href="https://www.certificat-voltaire.fr/orthographe-recruteur">771 points</a></li>
                 </ul>
             </article>
