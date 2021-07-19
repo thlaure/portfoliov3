@@ -16,7 +16,7 @@
                     <hr class="sm-separator w-25">
                     <h2>Développeur web - Symfony / Node.js / React.js</h2>
                     <h2>&</h2>
-                    <h2>Apprenti ingénieur informatique au Conservatoire National des Arts et Métiers</h2>
+                    <h2>Ingénieur informatique du CNAM spécialisé dans le développement web</h2>
                     <hr class="sm-separator w-25">
                 </section>
                 <div>
@@ -68,8 +68,8 @@
             </div>
             <article class="col-md-6 mt-3">
                 <h2>Thomas LAURE, <span id="age"></span> ans</h2>
-                <h3>Développeur web front-end et back-end en région Toulonnaise</h3>
-                <p>Je suis diplômé d'un <a href="https://bts-sio.lyc-bonaparte.fr/">BTS SIO</a> option SLAM actuellement <a href="https://www.cnam-paca.fr/nos-formations/ingenieur-specialite-informatique-multimedia">apprenti ingénieur informatique</a> au sein du Conservatoire National des Arts et Métiers à l'<a href="http://www.univ-tln.fr/">Université de Toulon</a> au poste de développeur web full-stack et Python à <a href="https://www.coexel.com/">Coexel</a>.</p>
+                <h3>Développeur web en région Toulonnaise</h3>
+                <p>Je suis diplômé d'un <a href="https://bts-sio.lyc-bonaparte.fr/">BTS SIO</a> option SLAM et du diplôme <a href="https://www.cnam-paca.fr/nos-formations/ingenieur-specialite-informatique-multimedia">d'ingénieur informatique</a> du Conservatoire National des Arts et Métiers, actuellement au poste de développeur web full-stack à <a href="https://www.la-boite-immo.com/">La Boîte Immo</a>.</p>
                 <p>Je suis également membre du collectif <a href="https://weact4earth.fr/">We Act 4 Earth</a> !</p>
                 <p>En milieu professionnel, hormis le développement, les activités qui me passionnent le plus sont :</p>
                 <ul>
@@ -102,7 +102,7 @@
             <article class="col-md-2 mt-3">
                 <h3>Soft skills</h3>
                 <ul class="list-unstyled">
-                    <li><i class="fas fa-id-badge"></i> Permis B / A2 et véhiculé</li>
+                    <li><i class="fas fa-id-badge"></i> Permis B / A et véhiculé</li>
                     <li><i class="fas fa-user-clock"></i> Ponctualité</li>
                     <li><i class="fas fa-tools"></i> Créativité</li>
                     <li><i class="fas fa-running"></i> Réactivité</li>
@@ -128,9 +128,17 @@
                     <ul class="timeline">
                         <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
-                            <h4 class="h5 mb-0">Bénévole pour We Act 4 Earth</h4><span class="small text-gray"><i class="far fa-clock"></i> Février 2021 - Aujourd'hui</span>
+                            <h4 class="h5 mb-0">Développeur web PHP full-stack à La Boîte Immo</h4>
+                            <span class="small text-gray"><i class="far fa-clock"></i> Septembre 2021 - Aujourd'hui</span>
+                            <p class="text-small mt-2 font-weight-light">Agence de web-marketing reconnue et engagée du monde de l'immobilier depuis 2009.</p>
+                            <p class="text-small mt-2 font-weight-light">Je suis membre de l'équipe R&D du pôle digital en tant que développeur web PHP full-stack.</p>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                            <div class="timeline-arrow"></div>
+                            <h4 class="h5 mb-0">Bénévole pour We Act 4 Earth</h4>
+                            <span class="small text-gray"><i class="far fa-clock"></i> Février 2021 - Aujourd'hui</span>
                             <p class="text-small mt-2 font-weight-light">We Act 4 Earth est un collectif qui accompagne les entrepreneur.e.s sur le chemin de la transition écologique.</p>
-                            <p class="text-small mt-2 font-weight-light">Nous proposons un grand nombre de ressources et de formations pour aider les entrepreneur.e.s à sauter le pas.</p>
+                            <p class="text-small mt-2 font-weight-light">Nous proposons un grand nombre de ressources et de formations pour aider les entrepreneurs à sauter le pas.</p>
                             <p class="text-small mt-2 font-weight-light">Du numérique responsable aux éco-gestes en entreprise, plus de 45 bénévoles du collectif ont travaillé pendant plusieurs mois à la création d'une plateforme en ligne aux sujets variés, ludiques et pédagogiques.</p>
                             <div>
                                 <img src="../assets/images/BadgeWA4E.png" width="100" alt="WA4E badge">
@@ -138,8 +146,9 @@
                         </li>
                         <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
-                            <h4 class="h5 mb-0">Ecole d'ingénieur du Cnam</h4><span class="small text-gray"><i class="far fa-clock"></i> Septembre 2018 - Août 2021</span>
-                            <p class="text-small mt-2 font-weight-light">Cursus ingénieur informatique au Cnam à <a href="https://www.coexel.com/">Coexel</a> société éditrice de MyTwip, solution de veille technologique et stratégique tous secteurs, en tant que développeur web full-stack Node.js, PHP et Python.</p>
+                            <h4 class="h5 mb-0">Ecole d'ingénieur du Cnam en apprentissage à Coexel</h4>
+                            <span class="small text-gray"><i class="far fa-clock"></i> Septembre 2018 - Août 2021</span>
+                            <p class="text-small mt-2 font-weight-light">Cursus ingénieur informatique au CNAM en contrat d'apprentissage à <a href="https://www.coexel.com/">Coexel</a> société éditrice de MyTwip, solution de veille technologique et stratégique tous secteurs, en tant que développeur web full-stack Node.js, PHP et Python.</p>
                             <p class="text-small mt-2 font-weight-light">Participation à la vie étudiante en tant que délégué de la promotion et membre du Bureau Des Etudiants.</p>
                             <ul>
                                 <li class="text-small font-weight-light">Développement d'un web scraper basé sur les technologies Node.js, <a href="http://expressjs.com/">Express</a> et <a href="https://developers.google.com/web/tools/puppeteer/">Puppeteer</a></li>
@@ -152,7 +161,8 @@
                         </li>
                         <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
-                            <h4 class="h5 mb-0">Développeur Symfony freelance</h4><span class="small text-gray"><i class="far fa-clock"></i> Juillet 2018 - Novembre 2018</span>
+                            <h4 class="h5 mb-0">Développeur Symfony freelance</h4>
+                            <span class="small text-gray"><i class="far fa-clock"></i> Juillet 2018 - Novembre 2018</span>
                             <p class="text-small mt-2 font-weight-light">Participation au développement d'un site e-commerce de balles de golf personnalisables pour RM Concept.</p>
                             <ul>
                                 <li class="text-small font-weight-light">Assistance à maîtrise d'ouvrage dans la rédaction du cahier des charges</li>
@@ -167,7 +177,8 @@
                         </li>
                         <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
-                            <h4 class="h5 mb-0">BTS SIO option SLAM</h4><span class="small text-gray"><i class="far fa-clock"></i> Septembre 2016 - Juin 2018</span>
+                            <h4 class="h5 mb-0">BTS SIO option SLAM</h4>
+                            <span class="small text-gray"><i class="far fa-clock"></i> Septembre 2016 - Juin 2018</span>
                             <p class="text-small mt-2 font-weight-light">Obtention du <a href="https://bts-sio.lyc-bonaparte.fr/">BTS SIO option SLAM</a> du <a href="http://www.lyc-bonaparte.fr/">lycée Bonaparte</a> de Toulon - <a href="https://www.cyberedu.fr/pages/label-2019-001/">Label CyberEdu</a></p>
                             <p class="text-small mt-2 font-weight-light">2 stages de 6 semaines à la CPAM du Var de Toulon en tant que développeur Java EE et web.</p>
                             <ul>
@@ -178,13 +189,15 @@
                         </li>
                         <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
-                            <h4 class="h5 mb-0">1 an à l'Université</h4><span class="small text-gray"><i class="far fa-clock"></i> Septembre 2015 - Avril 2016</span>
+                            <h4 class="h5 mb-0">1 an à l'Université</h4>
+                            <span class="small text-gray"><i class="far fa-clock"></i> Septembre 2015 - Avril 2016</span>
                             <p class="text-small mt-2 font-weight-light">Premier semestre en DUT Génie Mécanique et Productique à l'Université de Toulon, mais bien qu'intéressante la formation ne me correspondait pas, je me suis réorienté au second semestre en licence Sciences pour l'Ingénieur dans le but de préparer mon entrée en BTS SIO.</p>
                             <p class="text-small mt-2 font-weight-light">Compétences acquises : dessin industriel, modélisation 3D, métrologie, tournage et fraisage</p>
                         </li>
                         <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
-                            <h4 class="h5 mb-0">Bac S option SI</h4><span class="small text-gray"><i class="far fa-clock"></i> Septembre 2012 - Juin 2015</span>
+                            <h4 class="h5 mb-0">Bac S option SI</h4>
+                            <span class="small text-gray"><i class="far fa-clock"></i> Septembre 2012 - Juin 2015</span>
                             <p class="text-small mt-2 font-weight-light">Obtention du Baccalauréat Scientifique option Sciences de l'Ingénieur au lycée Costebelle à Hyères.</p>
                         </li>
                     </ul>
