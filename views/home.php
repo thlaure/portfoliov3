@@ -14,7 +14,7 @@
                 <section>
                     <h1 class="display-4">Thomas LAURE</h1>
                     <hr class="sm-separator w-25">
-                    <h2>Développeur web - Symfony / Node.js / React.js</h2>
+                    <h2>Développeur web - Symfony / Node.js</h2>
                     <h2>&</h2>
                     <h2>Ingénieur informatique du CNAM spécialisé dans le développement web</h2>
                     <hr class="sm-separator w-25">
@@ -140,9 +140,6 @@
                             <p class="text-small mt-2 font-weight-light">We Act 4 Earth est un collectif qui accompagne les entrepreneur.e.s sur le chemin de la transition écologique.</p>
                             <p class="text-small mt-2 font-weight-light">Nous proposons un grand nombre de ressources et de formations pour aider les entrepreneurs à sauter le pas.</p>
                             <p class="text-small mt-2 font-weight-light">Du numérique responsable aux éco-gestes en entreprise, plus de 45 bénévoles du collectif ont travaillé pendant plusieurs mois à la création d'une plateforme en ligne aux sujets variés, ludiques et pédagogiques.</p>
-                            <div>
-                                <img src="../assets/images/BadgeWA4E.png" width="100" alt="WA4E badge">
-                            </div>
                         </li>
                         <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
