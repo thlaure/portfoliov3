@@ -4,18 +4,18 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="theme-color" content="#000000">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="title" content="Portfolio de Thomas LAURE, apprenti ingénieur informatique au CNAM et développeur web Symfony / React.js">
+<meta name="title" content="Portfolio de Thomas LAURE, ingénieur informatique du CNAM et développeur web PHP/JavaScript/Symfony/Node.js">
 <meta name="author" content="Thomas LAURE">
-<meta name="description" content="Portfolio de Thomas LAURE, développeur web full-stack, front-end / back-end : PHP, JavaScript, Symfony, React.js, Node.js, et apprenti ingénieur informatique et multimédia au Conservatoire National des Arts et Métiers (CNAM) en alternance à Coexel à Toulon, en tant que développeur web et python">
+<meta name="description" content="Portfolio de Thomas LAURE, ingénieur informatique du CNAM et développeur web full-stack, front-end / back-end : PHP, JavaScript, Symfony, Node.js">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://thomaslaure.fr">
-<meta property="og:title" content="Portfolio de Thomas LAURE, apprenti ingénieur informatique au CNAM et développeur web Symfony / React.js">
-<meta property="og:description" content="Portfolio de Thomas LAURE, développeur web full-stack, front-end / back-end : PHP, JavaScript, Symfony, React.js, Node.js, et apprenti ingénieur informatique et multimédia au Conservatoire National des Arts et Métiers (CNAM) en alternance à Coexel à Toulon, en tant que développeur web et python">
+<meta property="og:title" content="Portfolio de Thomas LAURE, ingénieur informatique du CNAM et développeur web PHP/JavaScript/Symfony/Node.js">
+<meta property="og:description" content="Portfolio de Thomas LAURE, ingénieur informatique du CNAM et développeur web full-stack, front-end / back-end : PHP, JavaScript, Symfony, Node.js">
 <meta property="og:image" content="../assets/images/cover.png">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://thomaslaure.fr">
-<meta property="twitter:title" content="Portfolio de Thomas LAURE, apprenti ingénieur informatique au CNAM et développeur web Symfony / React.js">
-<meta property="twitter:description" content="Portfolio de Thomas LAURE, développeur web full-stack, front-end / back-end : PHP, JavaScript, Symfony, React.js, Node.js, et apprenti ingénieur informatique et multimédia au Conservatoire National des Arts et Métiers (CNAM) en alternance à Coexel à Toulon, en tant que développeur web et python">
+<meta property="twitter:title" content="Portfolio de Thomas LAURE, ingénieur informatique du CNAM et développeur web PHP/JavaScript/Symfony/Node.js">
+<meta property="twitter:description" content="Portfolio de Thomas LAURE, ingénieur informatique du CNAM et développeur web full-stack, front-end / back-end : PHP, JavaScript, Symfony, Node.js">
 <meta property="twitter:image" content="../assets/images/cover.ico">
 <link rel="shortcut icon" href="../assets/images/favicon.ico">
 <link rel="apple-touch-icon" href="../assets/images/favicon.ico">
