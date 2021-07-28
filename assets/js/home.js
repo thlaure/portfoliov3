@@ -16,7 +16,6 @@
   scrollTo('skills', 'smooth', 'start');
   scrollTo('realisations', 'smooth', 'start');
   scrollTo('title', 'smooth', 'start');
-  scrollTo('contact', 'smooth', 'start');
 
   /**
    * Calculate the age in relation to the birthday in param.
@@ -38,14 +37,4 @@
   }
 
   document.getElementById('age').innerText = calculateAge('1997-06-17');
-
-  $(window).on('scroll', function () {
-    //set scroll position in session storage
-    sessionStorage.scrollPos = $(window).scrollTop();
-  });
-  var init = function () {
-    //return scroll position in session storage
-    $(window).scrollTop(sessionStorage.scrollPos || 0)
-  };
-  window.onload = init;
 })();

@@ -20,7 +20,7 @@
                     <hr class="sm-separator w-25">
                 </section>
                 <div>
-                    <button class="btn btn-light font-weight-bold mt-3" id="scroll-contact"><i class="fas fa-envelope-square"></i> ME CONTACTER</button>
+                    <a href="mailto:thomas.laure@ik.me" class="btn btn-light font-weight-bold mt-3" id="scroll-contact"><i class="fas fa-envelope-square"></i> ME CONTACTER</a>
                     <div class="row social">
                         <div class="ml-auto mr-3 mt-2">
                             <a href="https://twitter.com/laure_th" class="social-media twitter" role="button" title="Twitter"><i class="fab fa-twitter"></i></a>
@@ -80,7 +80,7 @@
                     <li>La méthodologie DevOps</li>
                     <li>L'écoconception web que j'utilise dans mes développements</li>
                 </ul>
-                <p>Pour toute question, n'hésitez pas à me contacter !</p>
+                <p>Pour toute question, n'hésitez pas à me contacter : <a href="mailto:thomas.laure@ik.me">thomas.laure@ik.me</a></p>
             </article>
             <article class="col-md-2 mt-3">
                 <h3>Centres d'intérêt</h3>
@@ -112,7 +112,7 @@
                     <li><i class="fas fa-leaf"></i> Green IT / Ecoconception</li>
                     <li><i class="fas fa-tasks"></i> Organisation / Gestion</li>
                     <li><i class="fas fa-language"></i> TOEIC : 845 points</li>
-                    <li><img src="../assets/images/logo_voltaire.png" alt="Volaire"> Certificat Voltaire : <a href="https://www.certificat-voltaire.fr/orthographe-recruteur">771 points</a></li>
+                    <li><i class="fas fa-pen-nib"></i> Certificat Voltaire : <a href="https://www.certificat-voltaire.fr/orthographe-recruteur">771 points</a></li>
                 </ul>
             </article>
         </div>
@@ -265,44 +265,8 @@
             <button class="btn btn-light rounded-pill p-3" id="scroll-title" title="Scroll to the title"><i class="fas fa-arrow-up"></i></button>
         </div>
     </section>
-
-    <section id="contact" class="container-fluid p-5">
-        <h1 class="text-center">Me contacter</h1>
-        <div id="contact-form" class="mt-5">
-            <form class="container shadowing p-3 bg-dark-smoke text-light rounded">
-                <div id="alert-contact" class="" role="alert"></div>
-                <div class="form-row">
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label for="name">Votre nom</label>
-                            <input type="text" id="name" name="name" class="form-control" value="" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="firstname">Votre prénom</label>
-                            <input type="text" id="firstname" name="firstname" class="form-control" value="" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Votre email</label>
-                            <input type="email" id="email" name="email" class="form-control" value="" required>
-                        </div>
-                        <small class="mx-auto form-text text-light">Aucune information ne sera pas partagée</small>
-                    </div>
-                    <div class="col-md-8">
-                        <div class="form-group">
-                            <label for="message">Votre message</label>
-                            <textarea class="form-control" id="message" name="message" rows="8" required></textarea>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <button class="btn btn-light" id="send-mail"><i class="fas fa-paper-plane" aria-hidden="true"></i> Envoyer</button>
-                </div>
-            </form>
-        </div>
-    </section>
     <?php include(__DIR__ . '/footer.inc.php'); ?>
     <script src="../assets/js/home.min.js"></script>
-    <script src="../assets/js/contact.min.js"></script>
 </body>
 
 </html>
