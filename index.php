@@ -20,11 +20,6 @@ switch ($request) {
         }
         require __DIR__ . '/views/project.php';
         break;
-    case '/contact':
-        $data = json_decode(file_get_contents('php://input'), true);
-        $mail = mail('thomas.laure@ik.me', 'Contact portfolio', $data['message']);
-        echo json_encode($mail);
-        break;
     default:
         require __DIR__ . '/views/error404.php';
 }
