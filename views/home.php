@@ -19,7 +19,7 @@
             </section>
             <div class="container">
                 <a href="mailto:thomas.laure@ik.me" class="btn btn-light fw-bold mt-3" id="scroll-contact"><i class="fas fa-envelope-square"></i> ME CONTACTER</a>
-                <div class="row row-cols-auto social mt-2">
+                <div class="row row-cols-auto social mt-md-5">
                     <a href="https://twitter.com/laure_th" class="col-md-1 ms-auto social-media twitter" role="button" title="Twitter"><i class="fab fa-twitter"></i></a>
                     <a href="https://www.reddit.com/user/Merilthor" class="col-md-1 social-media reddit" role="button" title="Reddit"><i class="fab fa-reddit"></i></a>
                     <a href="https://www.linkedin.com/in/thomas-laure-developpeur-web/" class="col-md-1 social-media linkedin" role="button" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
