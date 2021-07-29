@@ -1,7 +1,7 @@
 <footer class="text-center">
     <div>
         <div class="social">
-            <div class="d-inline ml-auto mr-2 mt-2">
+            <div class="d-inline ms-auto me-2 mt-2">
                 <a href="https://twitter.com/laure_th" class="social-media" role="button" title="Twitter"><i class="fab fa-twitter"></i></a>
             </div>
             <div class="d-inline mx-2 mt-2">
@@ -13,7 +13,7 @@
             <div class="d-inline mx-2 mt-2">
                 <a href="https://github.com/thlaure" class="social-media" role="button" title="GitHub"><i class="fab fa-github"></i></a>
             </div>
-            <div class="d-inline mr-auto ml-2 mt-2">
+            <div class="d-inline me-auto ms-2 mt-2">
                 <a href="mailto:thomas.laure@ik.me" class="social-media" role="button" title="Mail"><i class="fas fa-envelope"></i></a>
             </div>
         </div>

@@ -5,7 +5,8 @@ body {
 }
 
 .sm-separator {
-  border-top: 2px solid rgba(255, 255, 255, 0.75);
+  border-top: 2px solid rgba(255, 255, 255, 1);
+  opacity: 0.75;
 }
 
 .social-media:link,
@@ -68,6 +69,7 @@ footer .social-media:visited {
 
 a {
   color: #146ccd;
+  text-decoration: none;
 }
 
 a.unstyled:hover {
