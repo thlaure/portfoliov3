@@ -14,7 +14,7 @@
                 <hr class="sm-separator w-25 mx-auto">
                 <h2>Développeur web - Symfony / Node.js</h2>
                 <h2>&</h2>
-                <h2>Ingénieur informatique du CNAM spécialisé dans le développement web</h2>
+                <h2>Ingénieur informatique et multimédia diplomé du CNAM</h2>
                 <hr class="sm-separator w-25 mx-auto">
             </section>
             <div class="container">
