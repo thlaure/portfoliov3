@@ -1,4 +1,4 @@
-<footer class="text-center">
+<footer class="text-center mt-2">
     <div>
         <div class="social">
             <div class="d-inline ms-auto me-2 mt-2">
