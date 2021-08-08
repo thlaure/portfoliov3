@@ -120,7 +120,7 @@
                             <div class="timeline-arrow"></div>
                             <h4 class="h5 mb-0">Bénévole pour We Act 4 Earth</h4>
                             <span class="small text-gray"><i class="far fa-clock"></i> Février 2021 - Aujourd'hui</span>
-                            <p class="text-small mt-2 fw-light">We Act 4 Earth est un collectif qui accompagne les entrepreneur.e.s sur le chemin de la transition écologique.</p>
+                            <p class="text-small mt-2 fw-light">We Act 4 Earth est un collectif qui accompagne les entrepreneurs sur le chemin de la transition écologique.</p>
                             <p class="text-small mt-2 fw-light">Nous proposons un grand nombre de ressources et de formations pour aider les entrepreneurs à sauter le pas.</p>
                             <p class="text-small mt-2 fw-light">Du numérique responsable aux éco-gestes en entreprise, plus de 45 bénévoles du collectif ont travaillé pendant plusieurs mois à la création d'une plateforme en ligne aux sujets variés, ludiques et pédagogiques.</p>
                         </li>
@@ -135,8 +135,8 @@
                                 <li class="text-small fw-light">Participation au développement d'interfaces client</li>
                                 <li class="text-small fw-light">Développement de modules complémentaires PHP, JavaScript et Python à la solution MyTwip</li>
                                 <li class="text-small fw-light">Extraction et mise en forme de données de plusieurs supports (CSV, base de données, XML) dans les langages PHP, JavaScript et Python</li>
-                                <li class="text-small fw-light">Projet de mise en place d'algorithme semi-automatisé permettant d'extraire des actualités depuis des sites</li>
-                                <li class="text-small fw-light">Mise en place de la charte RSE de l'entreprise (Responsabilité Sociétale des Entreprises)</li>
+                                <li class="text-small fw-light">Projet de mise en place d'un algorithme semi-automatisé permettant d'extraire des articles depuis des sites web d'actualités.</li>
+                                <li class="text-small fw-light">Mise en place de la charte RSE de l'entreprise</li>
                             </ul>
                         </li>
                         <li class="timeline-item bg-white rounded ms-3 p-4 shadow">
