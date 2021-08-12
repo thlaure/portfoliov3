@@ -149,6 +149,16 @@
             "context": null,
             "start_date": "2020-10-06",
             "end_date": "2021-02-12"
+        },
+        {
+            "title": "Mémoire d'ingénieur",
+            "description": "Mémoire rédigé à la fin de mon cursus d'ingénieur du CNAM.\r\n\r\nRésumé :\r\n L’activité d’extraction d’actualités prend beaucoup de temps aux équipes de Coexel qui pourrait être mis à profit d’autres projets plus importants et à l’amélioration de son service client, qui fait sa force vis-à-vis de la concurrence.\r\nCe mémoire propose une méthode semi-automatisée qui permet aux clients de réaliser euxmêmes leurs plugins depuis une interface, en sélectionnant la zone du site qui contient les actualités, et dans un second temps en exécutant un algorithme semi-automatisé pour récupérer leurs informations depuis la structure de la page web.\n\rLes tests réalisés montrent la possibilité d’extraire des actualités sur environ 80% des sites web.",
+            "tag": "Projet CNAM",
+            "files": {"cover": "memoire/memoire.png", "files": {"0": {"path": "cnam/ING_2018-Memoire-Thomas-LAURE.pdf", "title": "Support de présentation"}}, "links": {}, "images": []},
+            "slug": "memoire-d-ingenieur",
+            "context": null,
+            "start_date": "2021-02-15",
+            "end_date": "2021-08-13"
         }
     ]
 }
