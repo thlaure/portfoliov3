@@ -18,15 +18,15 @@
                 <hr class="sm-separator w-25 mx-auto">
             </section>
             <div class="container">
-                <a href="mailto:thomas.laure@ik.me" class="btn btn-light fw-bold mt-3" id="scroll-contact"><i class="fas fa-envelope-square"></i> ME CONTACTER</a>
-                <div class="row row-cols-auto social mt-md-5">
+                <a href="mailto:thomas.laure@ik.me" class="btn btn-light fw-bold mt-3 mb-md-3" id="scroll-contact"><i class="fas fa-envelope-square"></i> ME CONTACTER</a>
+                <div class="row row-cols-auto social my-3">
                     <a href="https://twitter.com/laure_th" class="col-md-1 ms-auto social-media twitter" role="button" title="Twitter"><i class="fab fa-twitter"></i></a>
                     <a href="https://www.reddit.com/user/Merilthor" class="col-md-1 social-media reddit" role="button" title="Reddit"><i class="fab fa-reddit"></i></a>
                     <a href="https://www.linkedin.com/in/thomas-laure-developpeur-web/" class="col-md-1 social-media linkedin" role="button" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://github.com/thlaure" class="col-md-1 me-auto social-media github" role="button" title="GitHub"><i class="fab fa-github"></i></a>
                 </div>
             </div>
-            <div class="row d-grid gap-2 d-md-block mt-md-5 mx-auto">
+            <div class="row d-grid gap-2 d-md-block mt-md-3 mx-auto">
                 <button class="btn btn-light rounded-pill p-md-3 fw-bold col-md-2 mx-md-3" id="scroll-presentation" title="Scroll to the presentation" type="button">À propos</button>
                 <button class="btn btn-light rounded-pill p-md-3 fw-bold col-md-2 mx-md-3" id="scroll-timeline" title="Scroll to the timeline">Parcours</button>
                 <button class="btn btn-light rounded-pill p-md-3 fw-bold col-md-2 mx-md-3" id="scroll-skills" title="Scroll to the skills">Compétences</button>
