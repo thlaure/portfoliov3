@@ -1,6 +1,6 @@
 RewriteEngine On
 #RewriteCond %{HTTP:X-Forwarded-Proto} !https
-#RewriteRule (.*) https://votre-domaine.com/$1 [R=301,L]
+#RewriteRule (.*) https://thomaslaure.fr/$1 [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ /index.php?url=$1 [QSA,L]
