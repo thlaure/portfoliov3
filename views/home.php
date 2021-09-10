@@ -118,6 +118,13 @@
                         </li>
                         <li class="timeline-item bg-white rounded ms-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
+                            <h4 class="h5 mb-0">Associé et actionnaire Time for the Planet</h4>
+                            <span class="small text-gray"><i class="far fa-clock"></i> Septembre 2021 - Aujourd'hui</span>
+                            <p class="text-small mt-2 fw-light">Time For The Planet est une entreprise à mission qui souhaite rassembler 1 milliard d'euros pour créer 100 entreprises luttant contre le réchauffement climatique.</p>
+                            <p class="text-small mt-2 fw-light">Il est possible de devenir actionnaire à partir d'un euro investi.</p>
+                        </li>
+                        <li class="timeline-item bg-white rounded ms-3 p-4 shadow">
+                            <div class="timeline-arrow"></div>
                             <h4 class="h5 mb-0">Bénévole pour We Act 4 Earth</h4>
                             <span class="small text-gray"><i class="far fa-clock"></i> Février 2021 - Aujourd'hui</span>
                             <p class="text-small mt-2 fw-light">We Act 4 Earth est un collectif qui accompagne les entrepreneurs sur le chemin de la transition écologique.</p>
