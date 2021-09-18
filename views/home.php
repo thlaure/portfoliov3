@@ -207,6 +207,7 @@
                     <li class="lead"><i class="devicon-git-plain"></i> Git</li>
                     <li class="lead"><i class="devicon-mysql-plain"></i> MySQL / MariaDB</li>
                     <li class="lead"><i class="devicon-postgresql-plain"></i> PostgreSQL / PostGIS</li>
+                    <li class="lead"><i class="devicon-vagrant-plain"></i> Vagrant</li>
                 </ul>
             </div>
             <div class="col-md-4">
@@ -214,6 +215,7 @@
                 <ul class="mt-5">
                     <li class="lead"><i class="devicon-html5-plain"></i> HTML</li>
                     <li class="lead"><i class="devicon-css3-plain"></i> CSS / Bootstrap</li>
+                    <li class="lead"><i class="devicon-sass-original"></i> Sass</li>
                     <li class="lead"><i class="devicon-javascript-plain"></i> JavaScript / jQuery</li>
                     <li class="lead"><i class="devicon-php-plain"></i> PHP</li>
                     <li class="lead"><i class="devicon-symfony-original"></i> Symfony / Twig</li>
