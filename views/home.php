@@ -52,8 +52,8 @@
             <article class="col-md-6 mt-3">
                 <h2>Thomas LAURE, <span id="age"></span> ans</h2>
                 <h3>Ingénieur et développeur web en région Toulonnaise</h3>
-                <p>Je suis diplômé d'un <a href="https://bts-sio.lyc-bonaparte.fr/">BTS SIO</a> option SLAM et du diplôme <a href="https://www.cnam-paca.fr/nos-formations/ingenieur-specialite-informatique-multimedia">d'ingénieur informatique</a> du Conservatoire National des Arts et Métiers, actuellement au poste de développeur web full-stack à <a href="https://www.la-boite-immo.com/">La Boîte Immo</a>.</p>
-                <p>Je suis également membre du collectif <a href="https://weact4earth.fr/">We Act 4 Earth</a> !</p>
+                <p>Je suis diplômé d'un <a href="https://bts-sio.lyc-bonaparte.fr/">BTS SIO</a> option SLAM et du diplôme d'<a href="https://www.cnam-paca.fr/nos-formations/ingenieur-specialite-informatique-multimedia">ingénieur informatique</a> du Conservatoire National des Arts et Métiers, actuellement au poste de développeur web full-stack à <a href="https://www.la-boite-immo.com/">La Boîte Immo</a>.</p>
+                <p>Je suis également membre du collectif <a href="https://weact4earth.fr/">We Act 4 Earth</a> et associé <a href="https://www.time-planet.com/fr">Time for the Planet</a> !</p>
                 <p>En milieu professionnel, hormis le développement, les activités qui me passionnent le plus sont :</p>
                 <ul>
                     <li>La gestion de projet suivant les méthodes Agiles, en particulier Scrum et Kanban, pour le côté organisation et transparence</li>
