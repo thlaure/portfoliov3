@@ -51,16 +51,16 @@
             </div>
             <article class="col-md-6 mt-3">
                 <h2>Thomas LAURE, <span id="age"></span> ans</h2>
-                <h3>Développeur web en région Toulonnaise</h3>
+                <h3>Ingénieur et développeur web en région Toulonnaise</h3>
                 <p>Je suis diplômé d'un <a href="https://bts-sio.lyc-bonaparte.fr/">BTS SIO</a> option SLAM et du diplôme <a href="https://www.cnam-paca.fr/nos-formations/ingenieur-specialite-informatique-multimedia">d'ingénieur informatique</a> du Conservatoire National des Arts et Métiers, actuellement au poste de développeur web full-stack à <a href="https://www.la-boite-immo.com/">La Boîte Immo</a>.</p>
                 <p>Je suis également membre du collectif <a href="https://weact4earth.fr/">We Act 4 Earth</a> !</p>
                 <p>En milieu professionnel, hormis le développement, les activités qui me passionnent le plus sont :</p>
                 <ul>
-                    <li>La gestion de projet suivant les méthodes Agiles, en particulier Scrum et Kanban, pour le côté organisation et la transparence</li>
+                    <li>La gestion de projet suivant les méthodes Agiles, en particulier Scrum et Kanban, pour le côté organisation et transparence</li>
                     <li>L'application de démarches UX pour proposer aux utilisateurs une solution au plus proche de leurs besoins</li>
-                    <li>L'analyse et la conception logicielle pour réfléchir à la mise en place des fonctionnalités en vue d'obtenir une solution maintenable et extensible dans le temps</li>
+                    <li>L'analyse et la conception logicielle pour réfléchir à la mise en place des fonctionnalités en vue d'obtenir une solution maintenable et évolutive dans le temps</li>
                     <li>L'analyse, la mise en forme, le traitement et l'extraction de grands volumes de données</li>
-                    <li>La méthodologie DevOps</li>
+                    <li>La méthodologie DevSecOps</li>
                     <li>L'écoconception web que j'utilise dans mes développements</li>
                 </ul>
                 <p>Pour toute question, n'hésitez pas à me contacter : <a href="mailto:thomas.laure@ik.me">thomas.laure@ik.me</a></p>
