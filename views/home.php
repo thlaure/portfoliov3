@@ -36,14 +36,6 @@
     </div>
 
     <section class="container-fluid p-5" id="presentation">
-        <figure class="text-center">
-            <blockquote class="blockquote">
-                <p class="mb-0 text-monospace"><?= $citations[$index]->text ?></p>
-            </blockquote>
-            <?php if ($citations[$index]->from) : ?>
-                <figcaption class="blockquote-footer"><?= $citations[$index]->from ?></figcaption>
-            <?php endif ?>
-        </figure>
         <h1 class="text-center">À propos</h1>
         <div class="row mt-5">
             <div class="col-md-2 center mt-3">
@@ -208,6 +200,7 @@
                     <li class="lead"><i class="devicon-mysql-plain"></i> MySQL / MariaDB</li>
                     <li class="lead"><i class="devicon-postgresql-plain"></i> PostgreSQL / PostGIS</li>
                     <li class="lead"><i class="devicon-vagrant-plain"></i> Vagrant</li>
+                    <li class="lead"><i class="devicon-docker-plain"></i> Docker</li>
                 </ul>
             </div>
             <div class="col-md-4">
