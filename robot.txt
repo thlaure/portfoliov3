@@ -1,2 +1,7 @@
+User-agent: Googlebot-Image
+Disallow: /
+
 User-agent: *
+Disallow: /assets/docs/
+Disallow: /project/
 Allow: /

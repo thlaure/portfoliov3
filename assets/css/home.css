@@ -1,5 +1,5 @@
 #title {
-  background: linear-gradient(to right, rgba(232,203,192,.75), rgba(99,111,164,.75)),url(../images/mountains.svg) no-repeat center;
+  background: linear-gradient(to right, rgba(232,203,192,.75), rgba(99,111,164,.75)) no-repeat center;
   background-size: cover;
   min-height: 100vh;
   display: flex;
@@ -12,7 +12,7 @@
 
 #timeline,
 #realisations {
-  background: linear-gradient(to right, rgba(232,203,192,.75), rgba(99,111,164,.75)),url(../images/mountains.svg) no-repeat center;
+  background: linear-gradient(to right, rgba(232,203,192,.75), rgba(99,111,164,.75)) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;

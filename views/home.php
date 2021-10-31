@@ -22,7 +22,7 @@
                 <div class="row row-cols-auto social my-3">
                     <a href="https://twitter.com/laure_th" class="col-md-1 ms-auto social-media twitter" role="button" title="Twitter"><i class="fab fa-twitter"></i></a>
                     <a href="https://www.reddit.com/user/Merilthor" class="col-md-1 social-media reddit" role="button" title="Reddit"><i class="fab fa-reddit"></i></a>
-                    <a href="https://www.linkedin.com/in/thomas-laure-developpeur-web/" class="col-md-1 social-media linkedin" role="button" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/in/thomas-laure-ingenieur-developpeur-web/" class="col-md-1 social-media linkedin" role="button" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://github.com/thlaure" class="col-md-1 me-auto social-media github" role="button" title="GitHub"><i class="fab fa-github"></i></a>
                 </div>
             </div>
