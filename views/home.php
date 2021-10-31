@@ -39,7 +39,7 @@
         <h1 class="text-center">À propos</h1>
         <div class="row mt-5">
             <div class="col-md-2 center mt-3">
-                <img class="rounded shadowing w-100" src="../assets/images/portrait.jpg" width="100" alt="Portrait">
+                <img class="rounded shadowing w-100" src="../assets/images/portrait.webp" width="100" alt="Portrait">
             </div>
             <article class="col-md-6 mt-3">
                 <h2>Thomas LAURE, <span id="age"></span> ans</h2>
