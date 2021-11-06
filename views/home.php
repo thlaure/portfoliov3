@@ -46,9 +46,10 @@
                 <h3>Ingénieur et développeur web en région Toulonnaise</h3>
                 <p>Je suis diplômé d'un <a href="https://bts-sio.lyc-bonaparte.fr/">BTS SIO</a> option SLAM et du diplôme d'<a href="https://www.cnam-paca.fr/nos-formations/ingenieur-specialite-informatique-multimedia">ingénieur informatique</a> du Conservatoire National des Arts et Métiers, actuellement au poste de développeur web full-stack à <a href="https://www.la-boite-immo.com/">La Boîte Immo</a>.</p>
                 <p>Je suis également membre du collectif <a href="https://weact4earth.fr/">We Act 4 Earth</a> et associé <a href="https://www.time-planet.com/fr">Time for the Planet</a> !</p>
-                <p>En milieu professionnel, hormis le développement, les activités qui me passionnent le plus sont :</p>
+                <p>Mon apprentissage continue me pousse à me perfectionner et à découvrir de nouvelles disciplines :</p>
                 <ul>
-                    <li>La gestion de projet suivant les méthodes Agiles, en particulier Scrum et Kanban, pour le côté organisation et transparence</li>
+                    <li>Marketing, community management, intelligence artificielle</li>
+                    <li>La gestion de projet et le management suivant les méthodes Agiles, en particulier Scrum et Kanban, pour le côté organisation et transparence</li>
                     <li>L'application de démarches UX pour proposer aux utilisateurs une solution au plus proche de leurs besoins</li>
                     <li>L'analyse et la conception logicielle pour réfléchir à la mise en place des fonctionnalités en vue d'obtenir une solution maintenable et évolutive dans le temps</li>
                     <li>L'analyse, la mise en forme, le traitement et l'extraction de grands volumes de données</li>
@@ -84,7 +85,7 @@
                     <li><i class="fas fa-user-ninja"></i> Rigueur / Flexibilité</li>
                     <li><i class="fas fa-eye"></i> Curiosité professionnelle</li>
                     <li><i class="fas fa-info"></i> Veille technologique</li>
-                    <li><i class="fas fa-leaf"></i> Green IT / Ecoconception</li>
+                    <li><i class="fas fa-graduation-cap"></i> Apprentissage continu</li>
                     <li><i class="fas fa-tasks"></i> Organisation / Gestion</li>
                     <li><i class="fas fa-language"></i> TOEIC : 845 points</li>
                     <li><i class="fas fa-pen-nib"></i> Certificat Voltaire : <a href="https://www.certificat-voltaire.fr/orthographe-recruteur">771 points</a></li>
@@ -107,6 +108,7 @@
                             <span class="small text-gray"><i class="far fa-clock"></i> Septembre 2021 - Aujourd'hui</span>
                             <p class="text-small mt-2 fw-light">Agence de web-marketing reconnue et engagée du monde de l'immobilier depuis 2009.</p>
                             <p class="text-small mt-2 fw-light">Je suis membre de l'équipe R&D du pôle digital en tant que développeur web PHP full-stack.</p>
+                            <p class="text-small mt-2 fw-light">Je suis également membre et responsable du comité RSE de La Boîte Immo afin de poursuivre la mise en place de leur stratégie de responsabilité sociétale.</p>
                         </li>
                         <li class="timeline-item bg-white rounded ms-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
@@ -221,6 +223,7 @@
                 <h2 class="text-center mt-3">Autres</h2>
                 <ul class="mt-5">
                     <li class="lead"><i class="devicon-python-plain"></i> Python / Selenium</li>
+                    <li class="lead"><i class="fas fa-leaf"></i> Green IT / Ecoconception</li>
                     <li class="lead"><i class="devicon-java-plain"></i> Java / Java EE</li>
                     <li class="lead"><i class="devicon-csharp-plain"></i> C# / .Net</li>
                     <li class="lead"><i class="devicon-amazonwebservices-original"></i> Big Data / Small Data</li>

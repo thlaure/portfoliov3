@@ -40,10 +40,6 @@ footer .social-media:visited {
   color: #24292d;
 }
 
-.fa-bootstrap {
-  color: #563e7c;
-}
-
 .btn-light {
   background-color: transparent;
   padding: 2% 3%;
@@ -56,10 +52,6 @@ footer .social-media:visited {
 
 .shadowing {
   box-shadow: 0 6px 20px -8px rgba(0, 0, 0, 0.7);
-}
-
-.bg-dark-smoke {
-  background-color: #484d51;
 }
 
 .card.unstyled:hover {
