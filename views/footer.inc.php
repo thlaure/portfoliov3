@@ -8,7 +8,7 @@
                 <a href="https://www.reddit.com/user/Merilthor" class="social-media" role="button" title="Reddit"><i class="fab fa-reddit"></i></a>
             </div>
             <div class="d-inline mx-2 mt-2">
-                <a href="https://www.linkedin.com/in/thomas-laure-developpeur-web/" class="social-media" role="button" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/thomas-laure-ingenieur-developpeur-web/" class="social-media" role="button" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
             </div>
             <div class="d-inline mx-2 mt-2">
                 <a href="https://github.com/thlaure" class="social-media" role="button" title="GitHub"><i class="fab fa-github"></i></a>
