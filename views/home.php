@@ -3,7 +3,7 @@
 
 <head>
     <?php include(__DIR__ . '/head.inc.php'); ?>
-    <link rel="stylesheet" href="../assets/css/home.min.css">
+    <link rel="stylesheet" href="../assets/css/home.css">
 </head>
 
 <body>
@@ -253,7 +253,7 @@
         </div>
     </section>
     <?php include(__DIR__ . '/footer.inc.php'); ?>
-    <script src="../assets/js/home.min.js"></script>
+    <script src="../assets/js/home.js"></script>
 </body>
 
 </html>

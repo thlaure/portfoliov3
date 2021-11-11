@@ -3,7 +3,7 @@
 
 <head>
     <?php include(__DIR__ . '/head.inc.php'); ?>
-    <link rel="stylesheet" href="../assets/css/project.min.css">
+    <link rel="stylesheet" href="../assets/css/project.css">
 </head>
 
 <body>
