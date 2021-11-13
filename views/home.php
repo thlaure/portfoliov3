@@ -107,7 +107,7 @@
                             <h4 class="h5 mb-0">Développeur web PHP full-stack à La Boîte Immo</h4>
                             <span class="small text-gray"><i class="far fa-clock"></i> Septembre 2021 - Aujourd'hui</span>
                             <p class="text-small mt-2 fw-light">Agence de web-marketing reconnue et engagée du monde de l'immobilier depuis 2009.</p>
-                            <p class="text-small mt-2 fw-light">Je suis membre de l'équipe R&D du pôle digital en tant que développeur web PHP full-stack.</p>
+                            <p class="text-small mt-2 fw-light">Je suis membre de l'équipe R&D du pôle digital en tant que développeur web PHP full-stack en ayant pour mission de participer au développement des nouveaux modèles de sites pour agences immobilières, ainsi qu'à la maintenance curative et évolutive du framework PHP interne.</p>
                             <p class="text-small mt-2 fw-light">Je suis également membre et responsable du comité RSE de La Boîte Immo afin de poursuivre la mise en place de leur stratégie de responsabilité sociétale.</p>
                         </li>
                         <li class="timeline-item bg-white rounded ms-3 p-4 shadow">
@@ -139,6 +139,8 @@
                                 <li class="text-small fw-light">Projet de mise en place d'un algorithme semi-automatisé permettant d'extraire des articles depuis des sites web d'actualités.</li>
                                 <li class="text-small fw-light">Mise en place de la charte RSE de l'entreprise</li>
                             </ul>
+                            <p class="text-small mt-2 fw-light">Sujet de mémoire : Extraction de d'actualités sur des sites web avec un algorithme semi-automatisé</p>
+                            <p class="text-small mt-2 fw-light">Obtention du diplôme avec les félicitations du jury.</p>
                         </li>
                         <li class="timeline-item bg-white rounded ms-3 p-4 shadow">
                             <div class="timeline-arrow"></div>
@@ -197,11 +199,9 @@
                     <li class="lead"><i class="devicon-phpstorm-plain"></i> PhpStorm</li>
                     <li class="lead"><i class="devicon-linux-plain"></i> GNU/Linux</li>
                     <li class="lead"><i class="devicon-windows8-original"></i> Windows</li>
-                    <li class="lead"><i class="devicon-python-plain"></i> Anaconda</li>
                     <li class="lead"><i class="devicon-git-plain"></i> Git</li>
                     <li class="lead"><i class="devicon-mysql-plain"></i> MySQL / MariaDB</li>
                     <li class="lead"><i class="devicon-postgresql-plain"></i> PostgreSQL / PostGIS</li>
-                    <li class="lead"><i class="devicon-vagrant-plain"></i> Vagrant</li>
                     <li class="lead"><i class="devicon-docker-plain"></i> Docker</li>
                 </ul>
             </div>
@@ -216,7 +216,6 @@
                     <li class="lead"><i class="devicon-symfony-original"></i> Symfony / Twig</li>
                     <li class="lead"><i class="devicon-nodejs-plain"></i> Node.js</li>
                     <li class="lead"><i class="devicon-express-original"></i> Express</li>
-                    <li class="lead"><i class="devicon-react-original"></i> React.js</li>
                 </ul>
             </div>
             <div class="col-md-4">
