@@ -15,7 +15,6 @@
   scrollTo('timeline', 'smooth', 'start');
   scrollTo('skills', 'smooth', 'start');
   scrollTo('realisations', 'smooth', 'start');
-  scrollTo('title', 'smooth', 'start');
 
   /**
    * Calculate the age in relation to the birthday in param.
