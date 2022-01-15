@@ -37,7 +37,8 @@
             <p class="lead text-justify"><?= nl2br($project->description) ?></p>
 
             <?php if (isset($project->files)) : ?>
-                <?php foreach ($project->files->files as $file) : ?>
+                <?php $files = $project->files->files ?>
+                <?php foreach ($files as $file) : ?>
                     <div>
                         <a href="../assets/docs/<?= $file->path ?>" class="lead unstyled">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-file-earmark-text-fill" viewBox="0 0 16 16">
@@ -50,7 +51,8 @@
             <?php endif ?>
 
             <?php if (isset($project->file->links)) : ?>
-                <?php foreach ($project->files->links as $link) : ?>
+                <?php $links = $project->files->links ?>
+                <?php foreach ($links as $link) : ?>
                     <div>
                         <a href="<?= $link->path ?>" class="lead unstyled">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
@@ -66,12 +68,14 @@
             <?php if (count($project->files->images) > 0) : ?>
                 <div id="carouselIndicators" class="carousel slide mt-5" data-bs-ride="carousel">
                     <div class="carousel-indicators">
-                        <?php for ($i = 0; $i < count($project->files->images); $i++) : ?>
+                        <?php $nbImages = count($project->files->images) ?>
+                        <?php for ($i = 0; $i < $nbImages; ++$i) : ?>
                             <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="<?= $i ?>" <?php if ($i === 0) : ?>class="active" <?php endif ?> aria-current="true" aria-label="Slide <?= $i ?>"></button>
                         <?php endfor ?>
                     </div>
                     <div class="carousel-inner">
-                        <?php foreach ($project->files->images as $key => $image) : ?>
+                        <?php $images = $project->files->images ?>
+                        <?php foreach ($images as $key => $image) : ?>
                             <div class="carousel-item <?php if ($key === 1) : ?>active<?php endif ?>">
                                 <img src="../assets/images/<?= $image ?>" class="d-block w-100" alt="Image #<?= $key ?>" loading="lazy">
                             </div>

@@ -10,7 +10,8 @@ switch ($request) {
     case '/projects':
         $projectName = preg_match("/\/projects\/([a-z-]+)/", $_SERVER['REQUEST_URI'], $matches) ? $matches[1] : header('Location: /');
         $project = null;
-        for ($i = 0; $i < count($projects); ++$i) {
+        $nbProjects = count($projects);
+        for ($i = 0; $i < $nbProjects; ++$i) {
             if ($projects[$i]->slug === $projectName) {
                 $project = $projects[$i];
                 break;

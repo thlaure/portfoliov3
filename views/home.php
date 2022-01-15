@@ -254,7 +254,8 @@
     <section id="realisations" class="container-fluid p-5 text-white">
         <h1 class="text-center">Réalisations</h1>
         <div class="row mt-5">
-            <?php for ($i = 0; $i < count($projects); ++$i) : ?>
+            <?php $nbProjects = count($projects) ?>
+            <?php for ($i = 0; $i < $nbProjects; ++$i) : ?>
                 <a href="/projects/<?= $projects[$i]->slug ?>" class="card col-md-2 text-secondary mb-4 mx-auto unstyled shadowing p-0" style="width: 18rem;">
                     <img src="../assets/images/<?= $projects[$i]->files->cover ?>" class="card-img-top" width="400" alt="Image of the project <?= $projects[$i]->title ?>" loading="lazy">
                     <div class="card-body">
